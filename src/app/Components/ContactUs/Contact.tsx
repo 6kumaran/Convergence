@@ -32,7 +32,7 @@ const Contact = () => {
                             Address
                         </dt>
                         <dd className="mt-2 text-base text-gray-500">
-                            St. Martin's Engineering College<br />
+                            St. Martin&apos;s Engineering College<br />
                             Dhulapally, 500100
                         </dd>
                     </div>

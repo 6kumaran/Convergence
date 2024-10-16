@@ -50,7 +50,7 @@ const BrainGpt = () => {
           <br /><br /></div>
           <span className='text-blue-800'>Session 2:</span> Guidance and Development
           <div style={{ fontFamily: 'JetBrains Mono, monospace' }}><br />- Get guidance from mentors (4th year students) who will help in building your idea concept. Whether it&apos;s strategy, execution, or creativity, they&apos;ve got your back!
-          <br />- You'll spend the afternoon refining your solution.
+          <br />- You&apos;ll spend the afternoon refining your solution.
           <br /><br /></div>
           <span className='text-yellow-700'>Session 3:</span> The Grand Finale
           <div style={{ fontFamily: 'JetBrains Mono, monospace' }}><br />- It&apos;s showtime! Present your idea in front of judges and an audience.
