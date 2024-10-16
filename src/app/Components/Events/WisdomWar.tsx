@@ -49,7 +49,7 @@ const WisdomWar = () => {
 <br />- Challenge yourself and rise to the top!
 <br />- Show off your quick-thinking skills and win the competition!</div>
 
-<br /><div>Think you’re up for the challenge? Register now !!!</div>
+<br /><div>Think you &apos;re up for the challenge? Register now !!!</div>
  
         </div>
       </div>

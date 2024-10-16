@@ -32,7 +32,7 @@ const BattleBonanza = () => {
       {/* Responsive paragraph content starts below the venue and button */}
       <div className="mt-10 flex flex-col items-center justify-center h-auto px-4 sm:px-8 text-left">
         <div style={{ fontFamily: 'JetBrains Mono, monospace' }} className="text-base md:text-lg lg:text-xl max-w-3xl overflow-wrap break-word leading-relaxed">
-        <div>Are you ready to prove you’re the best in the battle royale arena? GAME OVER is your chance to dominate in BGMI and FreeFire! Bring your squad, strategize, and outlast your opponents in an intense competition filled with thrilling battles and high stakes.</div>
+        <div>Are you ready to prove you &apos;re the best in the battle royale arena? GAME OVER is your chance to dominate in BGMI and FreeFire! Bring your squad, strategize, and outlast your opponents in an intense competition filled with thrilling battles and high stakes.</div>
 <br />
  <div className='font-bold text-xl'>Event Structure:</div>
 <div className='pl-3'>- Teams will face off in multiple rounds.

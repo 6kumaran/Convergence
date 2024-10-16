@@ -4,8 +4,6 @@ import React from "react";
 import { Timeline } from "../ui/timeline";
 import Link from "next/link";
 
-import { useEffect, useRef } from "react";
-
 export default function TimelineDemo() {
   const data = [
     {

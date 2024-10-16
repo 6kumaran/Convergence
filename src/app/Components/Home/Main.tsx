@@ -4,10 +4,6 @@ import { Vortex } from "../ui/vortex";
 import { useRouter } from "next/navigation";
 import MainTypewriter from "./MainTypewriter";
 export default function VortexDemo() {
-  const router = useRouter()
-  const handleRegisterClick = () => {
-    router.push("/event-timeline"); // Navigate to /event-timeline page
-  };
   return (
     <div className="w-[calc(100%)] mx-auto rounded-md  h-[30rem] overflow-hidden bg-zinc-900 dark:bg-black">
       <Vortex 

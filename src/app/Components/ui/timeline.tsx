@@ -1,6 +1,5 @@
 "use client";
 import {
-  useMotionValueEvent,
   useScroll,
   useTransform,
   motion,
@@ -42,7 +41,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           Convergence 2K24
         </h2>
         <p className="text-stone-300 dark:text-stone-300 text-medium md:text-stone-300 max-w-full">
-        "Convergence" is a dynamic college fest blending technical and non-technical events, offering students a platform to showcase skills, creativity, and teamwork. From coding challenges to E-gaming and fun-filled activities, exciting prizes await winners!
+        &quot;Convergence&quot; is a dynamic college fest blending technical and non-technical events, offering students a platform to showcase skills, creativity, and teamwork. From coding challenges to E-gaming and fun-filled activities, exciting prizes await winners!
         </p>
       </div>
 

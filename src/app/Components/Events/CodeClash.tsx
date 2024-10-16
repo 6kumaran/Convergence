@@ -38,12 +38,12 @@ const CodeClash = () => {
 <br /> 1st Round (Easy) → 2nd Round (Medium) → 3rd Round (Hard) – the challenge escalates quickly!</div>
 
 <br /><br /><div className='text-3xl'>How It Works:</div>
-<div style={{ fontFamily: 'JetBrains Mono, monospace' }}><br /> You’ll receive a DSA question sheet containing around 50-60 questions.
+<div style={{ fontFamily: 'JetBrains Mono, monospace' }}><br /> You &apos;ll receive a DSA question sheet containing around 50-60 questions.
 <br /> Each round will be a battle of speed and accuracy:
 <br /> <div className='pl-3'>- Round 1 (Easy): 5 easy questions to solve.</div>
 <br /> <div className='pl-3'>- Round 2 (Medium): 3 medium-level questions.</div>
 <br /> <div className='pl-3'>- Round 3 (Hard): 1 hard question to challenge your skills.</div>
-<br /> Can’t complete the questions in time? You’ll be eliminated.
+<br /> Can &apos;t complete the questions in time? You &apos;ll be eliminated.
 <br /> The participant who attempts the most questions is the winner !</div>
 
 <br /><br /><div className='text-3xl'>Why should you join Code Clash?</div>

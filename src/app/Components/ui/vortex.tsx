@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { cn } from "@/app/lib/utils";
 import React, { useEffect, useRef } from "react";
 import { createNoise3D } from "simplex-noise";
@@ -71,7 +71,6 @@ export const Vortex = (props: VortexProps) => {
 
   const initParticles = () => {
     tick = 0;
-    // simplex = new SimplexNoise();
     particleProps = new Float32Array(particlePropsLength);
 
     for (let i = 0; i < particlePropsLength; i += particlePropCount) {
@@ -123,14 +122,14 @@ export const Vortex = (props: VortexProps) => {
     const canvas = canvasRef.current;
     if (!canvas) return;
 
-    let i2 = 1 + i,
-      i3 = 2 + i,
-      i4 = 3 + i,
-      i5 = 4 + i,
-      i6 = 5 + i,
-      i7 = 6 + i,
-      i8 = 7 + i,
-      i9 = 8 + i;
+    const i2 = 1 + i;
+    const i3 = 2 + i;
+    const i4 = 3 + i;
+    const i5 = 4 + i;
+    const i6 = 5 + i;
+    const i7 = 6 + i;
+    const i8 = 7 + i;
+    const i9 = 8 + i;
     let n, x, y, vx, vy, life, ttl, speed, x2, y2, radius, hue;
 
     x = particleProps[i];
@@ -156,7 +155,7 @@ export const Vortex = (props: VortexProps) => {
     particleProps[i4] = vy;
     particleProps[i5] = life;
 
-    (checkBounds(x, y, canvas) || life > ttl) && initParticle(i);
+    if (checkBounds(x, y, canvas) || life > ttl) initParticle(i);
   };
 
   const drawParticle = (
