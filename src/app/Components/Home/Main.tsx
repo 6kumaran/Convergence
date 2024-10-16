@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { Vortex } from "../ui/vortex";
-import { useRouter } from "next/navigation";
 import MainTypewriter from "./MainTypewriter";
 export default function VortexDemo() {
   return (

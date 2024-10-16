@@ -33,7 +33,7 @@ const BrainGpt = () => {
       {/* Responsive paragraph content starts below the venue and button */}
       <div className="mt-10 flex flex-col items-center justify-center h-auto px-4 sm:px-8 text-left">
         <div className="text-base md:text-lg lg:text-xl max-w-3xl overflow-wrap break-word leading-relaxed">
-        <div style={{ fontFamily: 'JetBrains Mono, monospace' }}>Are you ready to bring your ideas to life and solve real-world problems? Brain GPT is the platform for you! Whether you're a coder, designer, presenter, or visionary, we want YOU to be part of this dynamic event that unites diverse minds to create innovative and impactful solutions.</div>
+        <div style={{ fontFamily: 'JetBrains Mono, monospace' }}>Are you ready to bring your ideas to life and solve real-world problems? Brain GPT is the platform for you! Whether you&apos;re a coder, designer, presenter, or visionary, we want YOU to be part of this dynamic event that unites diverse minds to create innovative and impactful solutions.</div>
           <br /><br />
           <div className='text-3xl'>What is Brain GPT?</div>
           <br />
@@ -45,15 +45,15 @@ const BrainGpt = () => {
           <br />Session 3: Final presentation to the judges
           <br /><br /></div>
           <span className='text-orange-600'>Session 1:</span> The Abstract Round
-          <div style={{ fontFamily: 'JetBrains Mono, monospace' }}><br />- You'll have 60 minutes to brainstorm, organize your thoughts, and pitch your idea to a group of mentors.
+          <div style={{ fontFamily: 'JetBrains Mono, monospace' }}><br />- You&apos;ll have 60 minutes to brainstorm, organize your thoughts, and pitch your idea to a group of mentors.
           <br />- Our mentors (4th-year students) will select the best two teams from each group to move forward to the next stage.
           <br /><br /></div>
           <span className='text-blue-800'>Session 2:</span> Guidance and Development
-          <div style={{ fontFamily: 'JetBrains Mono, monospace' }}><br />- Get guidance from mentors (4th year students) who will help in building your idea concept. Whether it's strategy, execution, or creativity, they've got your back!
+          <div style={{ fontFamily: 'JetBrains Mono, monospace' }}><br />- Get guidance from mentors (4th year students) who will help in building your idea concept. Whether it&apos;s strategy, execution, or creativity, they&apos;ve got your back!
           <br />- You'll spend the afternoon refining your solution.
           <br /><br /></div>
           <span className='text-yellow-700'>Session 3:</span> The Grand Finale
-          <div style={{ fontFamily: 'JetBrains Mono, monospace' }}><br />- It's showtime! Present your idea in front of judges and an audience.
+          <div style={{ fontFamily: 'JetBrains Mono, monospace' }}><br />- It&apos;s showtime! Present your idea in front of judges and an audience.
           <br />- How will your idea solve real-world challenges? What obstacles might you face, and how do you plan to overcome them? Impress the panel with your innovation and practical thinking!
           <br />- The team that scores the highest will be crowned Brain GPT Champions!
           <br /><br /></div>

@@ -33,7 +33,7 @@ const CulturalBytes = () => {
       <div className="mt-10 flex flex-col items-center justify-center h-auto px-4 sm:px-8 text-left">
         <div style={{ fontFamily: 'JetBrains Mono, monospace' }} className="text-base md:text-lg lg:text-xl max-w-3xl overflow-wrap break-word leading-relaxed">
         <div>Get ready for 2 hours of energy, creativity, and celebration! Cultural Bytes is the grand finale of Convergence 2k24, where we not only recognize the champions but also celebrate with performances that will leave you in awe and entertained.</div>
-<br /><div>This isn &apos;t just an award ceremony—it &apos;s a celebration of talent, with a mix of incredible performances and appreciation for the winners of the event. Here's what you &apos;ll enjoy:</div>
+<br /><div>This isn &apos;t just an award ceremony—it &apos;s a celebration of talent, with a mix of incredible performances and appreciation for the winners of the event. Here&apos;s what you &apos;ll enjoy:</div>
 <br /><div className='pl-5'><span className='text-xl font-bold'>Dance Performances :</span> Solo, Duo, Group</div>
 <div className='pl-5'><span className='text-xl font-bold'>Singing Performances :</span> Solo, Duo</div> 
 <div className='pl-5'><span className='text-xl font-bold'>Special Performances</span> (Example: Stand-up comedy, Beatboxing etc)</div><br />
