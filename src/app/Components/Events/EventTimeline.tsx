@@ -16,6 +16,7 @@ export default function TimelineDemo() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Link href="/">
           <div className="group relative card">
+            <h1 className="text-white block md:hidden">Inaugral</h1>
             <Image
               src="https://i.ibb.co/vjBKPKV/Inaugral.jpg"
               alt=""
@@ -30,6 +31,7 @@ export default function TimelineDemo() {
             </Link>
             <Link href="/braingpt">
             <div className="group relative card">
+            <h1 className="text-white block md:hidden">BrainGPT</h1>
             <Image
               src="https://i.ibb.co/mHfr7sh/BrainGPT.jpg"
               alt=""
@@ -61,6 +63,7 @@ export default function TimelineDemo() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Link href="/braingpt">
           <div className="group relative card">
+          <h1 className="text-white block md:hidden">BrainGPT</h1>
           <Image
               src="https://i.ibb.co/mHfr7sh/BrainGPT.jpg"
               alt=""
@@ -75,6 +78,7 @@ export default function TimelineDemo() {
             </Link>
             <Link href="/wisdom-war">
             <div className="group relative card">
+            <h1 className="text-white block md:hidden">Wisdom War</h1>
             <Image
               src="https://i.ibb.co/kQV0qdc/Non-Tech-Quiz.jpg"
               alt=""
@@ -89,6 +93,7 @@ export default function TimelineDemo() {
             </Link>
             <Link href="/code-clash">
             <div className="group relative card">
+            <h1 className="text-white block md:hidden">Code Clash</h1>
             <Image
               src="https://i.ibb.co/hVc6h7D/Tech-DSA.jpg"
               alt=""
@@ -103,6 +108,7 @@ export default function TimelineDemo() {
             </Link>
             <Link href="/questival">
             <div className="group relative card">
+            <h1 className="text-white block md:hidden">Questival</h1>
             <Image
               src="https://i.ibb.co/WPmc5xp/Questival.png"
               alt=""
@@ -146,6 +152,7 @@ export default function TimelineDemo() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Link href="/braingpt">
           <div className="group relative card">
+          <h1 className="text-white block md:hidden">BrainGPT</h1>
           <Image
               src="https://i.ibb.co/mHfr7sh/BrainGPT.jpg"
               alt=""
@@ -160,6 +167,7 @@ export default function TimelineDemo() {
             </Link>
             <Link href="/questival">
             <div className="group relative card">
+            <h1 className="text-white block md:hidden">Questival</h1>
             <Image
               src="https://i.ibb.co/WPmc5xp/Questival.png"
               alt=""
@@ -174,6 +182,7 @@ export default function TimelineDemo() {
             </Link>
             <Link href="/battle-bonanza">
             <div className="group relative card">
+            <h1 className="text-white block md:hidden">Game Over</h1>
             <Image
               src="https://i.ibb.co/sV0bdc3/Battle-Bonanza.jpg"
               alt=""
@@ -182,12 +191,13 @@ export default function TimelineDemo() {
               className="rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <p className="text-white text-sm font-medium p-4">Battle Bonanza</p>
+                <p className="text-white text-sm font-medium p-4">Game Over</p>
               </div>
             </div>
             </Link>
             <Link href="/content-crafters">
             <div className="group relative card">
+            <h1 className="text-white block md:hidden">Content Crafters</h1>
             <Image
               src="https://i.ibb.co/HVVpYh6/Content-Crafters.png"
               alt=""
@@ -214,6 +224,7 @@ export default function TimelineDemo() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Link href="/questival">
           <div className="group relative card">
+          <h1 className="text-white block md:hidden">Treasure Hunt</h1>
           <Image
               src="https://i.ibb.co/WPmc5xp/Questival.png"
               alt=""
@@ -228,6 +239,7 @@ export default function TimelineDemo() {
             </Link>
             <Link href="/cultural-bytes">
             <div className="group relative card">
+            <h1 className="text-white block md:hidden">Closing Ceremony</h1>
             <Image
               src="https://i.ibb.co/BVBrLhv/Closing.png"
               alt=""

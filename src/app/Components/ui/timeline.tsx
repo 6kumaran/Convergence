@@ -15,22 +15,12 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   const ref = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState(0);
-  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     if (ref.current) {
       const rect = ref.current.getBoundingClientRect();
       setHeight(rect.height);
     }
-
-    // Check if it's mobile view on component mount
-    const handleResize = () => setIsMobile(window.innerWidth < 768);
-    handleResize(); // Set the initial value
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
   }, [ref]);
 
   const { scrollYProgress } = useScroll({
@@ -42,8 +32,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
   return (
-    <div
-      style={{ fontFamily: 'Nasalization, sans-serif' }}
+    <div style={{ fontFamily: 'Nasalization, sans-serif' }}
       className="w-full bg-black dark:bg-black font-sans md:px-10"
       ref={containerRef}
     >
@@ -52,7 +41,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           Convergence 2K24
         </h2>
         <p className="text-stone-300 dark:text-stone-300 text-medium md:text-stone-300 max-w-full">
-          &quot;Convergence&quot; is a dynamic college fest blending technical and non-technical events, offering students a platform to showcase skills, creativity, and teamwork. From coding challenges to E-gaming and fun-filled activities, exciting prizes await winners!
+        &quot;Convergence&quot; is a dynamic college fest blending technical and non-technical events, offering students a platform to showcase skills, creativity, and teamwork. From coding challenges to E-gaming and fun-filled activities, exciting prizes await winners!
         </p>
       </div>
 
@@ -66,22 +55,15 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
                 <div className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
-              {/* Event title for desktop */}
               <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-neutral-500 dark:text-neutral-500 ">
                 {item.title}
               </h3>
             </div>
 
             <div className="relative pl-20 pr-4 md:pl-4 w-full">
-              {/* Event title for mobile (display it based on scroll position) */}
-              {isMobile && (
-                <motion.h3
-                  className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500"
-                  style={{ opacity: opacityTransform }}
-                >
-                  {item.title}
-                </motion.h3>
-              )}
+              <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
+                {item.title}
+              </h3>
               {item.content}{" "}
             </div>
           </div>
