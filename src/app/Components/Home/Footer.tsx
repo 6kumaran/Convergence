@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
+    <div style={{ fontFamily: 'Nasalization, sans-serif' }}>
       <footer className="flex flex-col space-y-10 justify-center m-10">
 
 <nav className="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
