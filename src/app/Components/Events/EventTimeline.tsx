@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function TimelineDemo() {
   const data = [
     {
-      title: "28th Morning",
+      title: "6th Morning",
       content: (
         <div>
           {/* <p className="text-neutral-800 dark:text-neutral-200 text-xs md:-textsm font-normal mb-8">
@@ -49,7 +49,7 @@ export default function TimelineDemo() {
       ),
     },
     {
-      title: "28th Afternoon",
+      title: "6th Afternoon",
       content: (
         <div>
           {/* <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
@@ -126,7 +126,7 @@ export default function TimelineDemo() {
       ),
     },
     {
-      title: "29th Mornning",
+      title: "7th Mornning",
       content: (
         <div>
           {/* <p className="text-stone-300 dark:text-stone-300 text-xs md:text-sm font-normal mb-4">
@@ -215,7 +215,7 @@ export default function TimelineDemo() {
       ),
     },
     {
-      title: "29th Afternoon",
+      title: "7th Afternoon",
       content: (
         <div>
           {/* <p className="text-stone-300 dark:text-stone-300 text-xs md:text-sm font-normal mb-4">

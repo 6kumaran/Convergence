@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        jetbrains: ['JetBrains Mono', 'monospace'],
+      },
       keyframes: {
         scroll: {
           '0%': { transform: 'translateX(0)' },
