@@ -20,6 +20,22 @@ const FAQs: React.FC = () => {
       question: "Can students participate in multiple events?",
       answer: "Yes, they can!! But make sure that events don't clash with each other. In case if they do don't worry we'll be escorting you accordingly.",
     },
+    {
+      question: "Where can I get to know about the event details?",
+      answer: "Click on Explore More.",
+    },
+    {
+      question: "Whom can I contact for queries?",
+      answer: "+91 1234567890 (For more details visit the Contacts Page)",
+    },
+    {
+      question: "Can we form our own teams, or will we be allotted to a particular team?",
+      answer: "Participants are free to form their own teams. However, you must form your team before registration.",
+    },
+    {
+      question: "How can I  cancel my registration?",
+      answer: "Once registered you can't cancel your registration i.e No Money is given Back.",
+    },
   ];
 
   const filterFAQs = (event: React.ChangeEvent<HTMLInputElement>) => {

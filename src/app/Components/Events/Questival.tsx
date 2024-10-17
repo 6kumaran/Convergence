@@ -51,7 +51,7 @@ const Questival = () => {
 <br /><br />Teams will then face a lemon and spoon race, where participants must balance a spoon with a lemon while also carrying 2 cups. This tests precision and composure as they place the cups to form the second-to-last layer of the tower.
 <br /><br />Strength (Final Cup):
 <br /><br />In the final challenge, the team &apos;s strength will be put to the test. One member will carry weights while holding the final cup, carefully placing it on top to complete the tower.
-<br />Time will be tracked for the entire team as they complete the sequence. The team that completes the tower in the least amount of time will secure a spot in the Final Destination round. Teamwork, coordination, and speed are critical to success in this stage.</div>
+<br /><br />Time will be tracked for the entire team as they complete the sequence. The team that completes the tower in the least amount of time will secure a spot in the Final Destination round. Teamwork, coordination, and speed are critical to success in this stage.</div>
 <br /><br /><div className='text-2xl pl-5 text-yellow-700'>ROUND 3 - THE FINAL DESTINATION</div>
 <br /><div className='pl-8' style={{ fontFamily: 'JetBrains Mono, monospace' }}>Here, the teams will be given five riddles to solve. The initial three riddles are variable for each team. Teams should try to complete this as soon as they can. After each solved riddle, they will be one step closer to their final win. The last two riddles are common to all five teams. So the one who finds and solves them first will be considered the winner.</div>
 

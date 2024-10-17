@@ -20,35 +20,35 @@ const testimonials = [
   {
     title: "BrainGPT",
     quote:
-      "In the Shark Tank event, teams of four pitch their ideas to judges, who will mentor them for the final round.",
+      "Are you ready to bring your ideas to life and mix skill, innovation, and fun to solve real-world problems? Brain GPT is the platform for you!",
     name: "",
     backgroundImage: "https://i.ibb.co/mHfr7sh/BrainGPT.jpg",
   },
   {
     title: "Code Clash",
     quote:
-      "Compete in the Coding Round to solve the most DSA questions and win exciting prizes!",
+      "Do you have what it takes to solve tricky Data Structures and Algorithms problems under pressure? Code Clash is designed for those who love pushing their coding limits.",
     name: "",
     backgroundImage: "https://i.ibb.co/hVc6h7D/Tech-DSA.jpg",
     
   },
   {
     title: "Questival",
-    quote: "Join the Treasure Hunt, where teams of four tackle challenges like the Memory Room and BASE round to claim victory!",
+    quote: "Come join us for this one-of-a-kind experience that blends mental sharpness, physical prowess, and adventurous fun. Questival is YOUR chance to shine!",
     name: "",
     backgroundImage: "https://i.ibb.co/WPmc5xp/Questival.png",
   },
   {
     title: "Wisdom War",
     quote:
-      "Join the Non-Tech Quiz, where duos compete to answer a mix of tech, non-tech, entertainment, and GK questions for exciting prizes!",
+      "Do you have what it takes to outsmart your peers and claim the title of quiz champion? Wisdom War is your chance to prove it! ",
     name: "",
     backgroundImage: "https://i.ibb.co/kQV0qdc/Non-Tech-Quiz.jpg",
   },
   {
-    title: "Battle Bonanza",
+    title: "Game Over",
     quote:
-      "Join the ultimate E-gaming showdown with thrilling mobile games like BGMI and Freefire, where winning teams claim exciting prizes!",
+      "Are you ready to prove you’re the best in the battle royale arena? GAME OVER is your chance to dominate in BGMI and FreeFire!",
     name: "",
     backgroundImage: "https://i.ibb.co/sV0bdc3/Battle-Bonanza.jpg",
   },
@@ -58,5 +58,12 @@ const testimonials = [
       "Showcase your creativity in the AI-powered content creation and videography event, where top creators win exciting prizes!",
     name: "",
     backgroundImage: "https://i.ibb.co/HVVpYh6/Content-Crafters.png",
+  },
+  {
+    title: "Cultural Bytes",
+    quote:
+      "Get ready for 2 hours of energy, creativity, and celebration! Cultural Bytes is the grand finale of Convergence 2k24!!!",
+    name: "",
+    backgroundImage: "https://i.ibb.co/BVBrLhv/Closing.png",
   },
 ];
