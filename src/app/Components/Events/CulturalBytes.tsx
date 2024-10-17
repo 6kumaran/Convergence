@@ -15,7 +15,7 @@ const CulturalBytes = () => {
       {/* Paragraph and button aligned separately */}
       <div className="mt-6 flex flex-col md:flex-row justify-between items-center">
         <p className="text-base md:text-lg">
-          Venue: SCB Block Auditorium<br /> Price: Rs. 50(Per Head) 
+          Venue: SCB Block Auditorium<br /> Price: Rs. 60(Per Head) & Rs. 50(Audience)
         </p>
         <button onClick={handleRegisterClick} className="hidden md:block mt-3 md:mt-0 text-white bg-orange-600 hover:bg-orange-700 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center">
           REGISTER
