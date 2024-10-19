@@ -40,7 +40,7 @@ export default function HeroParallaxDemo() {
       <img src="https://i.ibb.co/F82H5wt/GD.png"></img>
       <h3>Board Of Director</h3>
       <h1>Dr.P.Santosh Kumar Patra</h1>
-      <p>Dr.P.Santosh Kumar Patra , Group Director of St.Martin's Engineering College is holding B.E. in Computer Science & Engineering, MTech in Computer Science & Engineering and Ph.D in Computer Science & Engineering degrees. His area of interests are Airtificial Intelligence,Software Engineering , Data mining and warehousing & Wireless Networks.</p>
+      <p>Dr.P.Santosh Kumar Patra , Group Director of St.Martin&apos;s Engineering College is holding B.E. in Computer Science & Engineering, MTech in Computer Science & Engineering and Ph.D in Computer Science & Engineering degrees. His area of interests are Airtificial Intelligence,Software Engineering , Data mining and warehousing & Wireless Networks.</p>
       </div>
       <img src="https://i.ibb.co/vqyjdMw/DSC-0217.jpg" alt="" />
     </div>
