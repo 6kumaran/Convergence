@@ -70,6 +70,6 @@ export default function FocusCardsDemo() {
   ];
 
   return (<div>
-    <div className="text-white text-3xl mb-6 dark:text-white max-w-5xl mx-auto md:px-8 w-full" style={{ fontFamily: 'Nasalization, sans-serif' }}><h1>CORE COMMITTEE</h1></div>
+    <div className="text-white text-3xl mb-6 dark:text-white max-w-5xl mx-auto md:px-8 w-full px-3 md:px-0" style={{ fontFamily: 'Nasalization, sans-serif' }}><h1>CORE COMMITTEE</h1></div>
     <FocusCards cards={cards} /></div>);
 }
