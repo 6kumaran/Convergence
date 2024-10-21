@@ -38,7 +38,10 @@ const ContentCrafters = () => {
 <div className='pl-5'>   <br />- Got a way with words? Use your creativity to write prompts that generate stunning images using AI tools. Craft a prompt that brings your vision to life and see how it transforms into a masterpiece. The most creative and visually striking images win!</div>
    
 <br /><br />2. Reel It In (Reel Creation): 
-<div className='pl-5'> <br />- Love video editing? Create a 30-60 second reel showcasing your favorite spots on campus. Capture the essence of college life, edit your footage, and create a reel that promotes the college in a fun and engaging way. The best video wins!</div>
+<div className='pl-5'> <br /> - Love video editing? We just have the right competition for you.
+<br /><br />
+Detailed Information…Coming SOON !!!
+</div>
 
 <br /><br />Why Participate?
 <div className='pl-5'>

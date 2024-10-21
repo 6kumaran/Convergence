@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function TimelineDemo() {
   const data = [
     {
-      title: "6th Morning",
+      title: "Nov 6th Morning",
       content: (
         <div>
           {/* <p className="text-neutral-800 dark:text-neutral-200 text-xs md:-textsm font-normal mb-8">
@@ -18,7 +18,7 @@ export default function TimelineDemo() {
           <div className="group relative card">
             <h1 className="text-white block md:hidden">Inaugral</h1>
             <Image
-              src="https://i.ibb.co/vjBKPKV/Inaugral.jpg"
+              src="https://i.ibb.co/2yyf1XF/Event-Cards-Website-page-0007.jpg"
               alt=""
               width={500}
               height={500}
@@ -33,7 +33,7 @@ export default function TimelineDemo() {
             <div className="group relative card">
             <h1 className="text-white block md:hidden">BrainGPT</h1>
             <Image
-              src="https://i.ibb.co/mHfr7sh/BrainGPT.jpg"
+              src="https://i.ibb.co/58dPpkb/Event-Cards-Website-page-0003.jpg"
               alt=""
               width={500}
               height={500}
@@ -49,7 +49,7 @@ export default function TimelineDemo() {
       ),
     },
     {
-      title: "6th Afternoon",
+      title: "Nov 6th Afternoon",
       content: (
         <div>
           {/* <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
@@ -65,7 +65,7 @@ export default function TimelineDemo() {
           <div className="group relative card">
           <h1 className="text-white block md:hidden">BrainGPT</h1>
           <Image
-              src="https://i.ibb.co/mHfr7sh/BrainGPT.jpg"
+              src="https://i.ibb.co/58dPpkb/Event-Cards-Website-page-0003.jpg"
               alt=""
               width={500}
               height={500}
@@ -80,7 +80,7 @@ export default function TimelineDemo() {
             <div className="group relative card">
             <h1 className="text-white block md:hidden">Wisdom War</h1>
             <Image
-              src="https://i.ibb.co/kQV0qdc/Non-Tech-Quiz.jpg"
+              src="https://i.ibb.co/b3ymTkS/Event-Cards-Website-page-0006.jpg"
               alt=""
               width={500}
               height={500}
@@ -95,7 +95,7 @@ export default function TimelineDemo() {
             <div className="group relative card">
             <h1 className="text-white block md:hidden">Code Clash</h1>
             <Image
-              src="https://i.ibb.co/hVc6h7D/Tech-DSA.jpg"
+              src="https://i.ibb.co/kD7mwg4/Event-Cards-Website-page-0001.jpg"
               alt=""
               width={500}
               height={500}
@@ -110,7 +110,7 @@ export default function TimelineDemo() {
             <div className="group relative card">
             <h1 className="text-white block md:hidden">Questival</h1>
             <Image
-              src="https://i.ibb.co/WPmc5xp/Questival.png"
+              src="https://i.ibb.co/BsXjcf6/Event-Cards-Website-page-0004.jpg"
               alt=""
               width={500}
               height={500}
@@ -126,7 +126,7 @@ export default function TimelineDemo() {
       ),
     },
     {
-      title: "7th Mornning",
+      title: "Nov 7th Mornning",
       content: (
         <div>
           {/* <p className="text-stone-300 dark:text-stone-300 text-xs md:text-sm font-normal mb-4">
@@ -154,7 +154,7 @@ export default function TimelineDemo() {
           <div className="group relative card">
           <h1 className="text-white block md:hidden">BrainGPT</h1>
           <Image
-              src="https://i.ibb.co/mHfr7sh/BrainGPT.jpg"
+              src="https://i.ibb.co/58dPpkb/Event-Cards-Website-page-0003.jpg"
               alt=""
               width={500}
               height={500}
@@ -169,7 +169,7 @@ export default function TimelineDemo() {
             <div className="group relative card">
             <h1 className="text-white block md:hidden">Questival</h1>
             <Image
-              src="https://i.ibb.co/WPmc5xp/Questival.png"
+              src="https://i.ibb.co/BsXjcf6/Event-Cards-Website-page-0004.jpg"
               alt=""
               width={500}
               height={500}
@@ -184,7 +184,7 @@ export default function TimelineDemo() {
             <div className="group relative card">
             <h1 className="text-white block md:hidden">Game Over</h1>
             <Image
-              src="https://i.ibb.co/sV0bdc3/Battle-Bonanza.jpg"
+              src="https://i.ibb.co/XJP3vtn/Event-Cards-Website-page-0002.jpg"
               alt=""
               width={500}
               height={500}
@@ -199,7 +199,7 @@ export default function TimelineDemo() {
             <div className="group relative card">
             <h1 className="text-white block md:hidden">Content Crafters</h1>
             <Image
-              src="https://i.ibb.co/HVVpYh6/Content-Crafters.png"
+              src="https://i.ibb.co/wwkTjv0/Event-Cards-Website-page-0005.jpg"
               alt=""
               width={500}
               height={500}
@@ -215,7 +215,7 @@ export default function TimelineDemo() {
       ),
     },
     {
-      title: "7th Afternoon",
+      title: "Nov 7th Afternoon",
       content: (
         <div>
           {/* <p className="text-stone-300 dark:text-stone-300 text-xs md:text-sm font-normal mb-4">
@@ -226,7 +226,7 @@ export default function TimelineDemo() {
           <div className="group relative card">
           <h1 className="text-white block md:hidden">Treasure Hunt</h1>
           <Image
-              src="https://i.ibb.co/WPmc5xp/Questival.png"
+              src="https://i.ibb.co/BsXjcf6/Event-Cards-Website-page-0004.jpg"
               alt=""
               width={500}
               height={500}
@@ -241,7 +241,7 @@ export default function TimelineDemo() {
             <div className="group relative card">
             <h1 className="text-white block md:hidden">Closing Ceremony</h1>
             <Image
-              src="https://i.ibb.co/BVBrLhv/Closing.png"
+              src="https://i.ibb.co/6b9vDJ5/Event-Cards-Website-page-0008.jpg"
               alt=""
               width={500}
               height={500}

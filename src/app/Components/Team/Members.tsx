@@ -29,41 +29,39 @@ export default function HeroParallaxDemo() {
     });
   }, []);
   return (
-    <div className="flex flex-col items-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-7" style={{ fontFamily: 'Nasalization, sans-serif' }}>
-      <div className="mb-8 text-left">
-        <h1 className="text-3xl font-bold text-gray-600 mb-4">Meet The Iconic Team</h1>
-        <p className="text-gray-600 text-lg">
-          Meet the dedicated team behind Convergence! Each member played a crucial role in organizing and bringing this event to life. Their hard work and unique contributions made the fest a success.
-        </p>
-      </div>
+    <div className="flex flex-col items-center max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pb-7" style={{ fontFamily: 'Nasalization, sans-serif' }}>
 
-      {/* Map over the products array and pass each product to FlipCard */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {products.map((product: Product, index: number) => (
-          <FlipCard
-            key={index}
-            image={product.thumbnail}
-            title={product.title}
-            description={product.description || "No description available"}
-            subtitle={product.subtitle || "Core Team"}
-          />
-        ))}
-      </div>
-      <div className="text-white">
-      <h1 className="text-3xl font-bold text-gray-600 my-4">Special Thanks To</h1>
-      <img src="https://i.ibb.co/F82H5wt/GD.png" className="slide-in-left"></img>
-      <div style={{ fontFamily: 'JetBrains Mono, monospace' }}>
-      <h3 className="text-2xl p-3">Board Of Director</h3>
-      <h1 className="text-xl px-4">Dr. P.Santosh Kumar Patra</h1>
-      <p className="text-base px-4">Dr. P.Santosh Kumar Patra, Group Director of St.Martin&apos;s Engineering College is holding B.E. in Computer Science & Engineering, MTech in Computer Science & Engineering and Ph.D in Computer Science & Engineering degrees. His area of interests are Airtificial Intelligence, Software Engineering, Data mining and warehousing & Wireless Networks.</p>
-      <br />
-      <img src="https://i.ibb.co/vqyjdMw/DSC-0217.jpg" alt="" className="slide-in-left rounded-xl w-full md:w-1/2 lg:w-1/3"/>
-      <h3 className="text-2xl p-3">CSM - Head Of Department</h3>
-      <h1 className="text-xl px-4">Dr. K.Srinivas</h1>
-      <p className="px-4"></p>
-      </div>
+<div className="text-white">
+  <h1 className="text-5xl font-bold text-gray-600 my-10 text-center">Special Thanks To</h1>
+
+  {/* Flex Container for Images and Descriptions */}
+  <div className="flex flex-col md:flex-row md:justify-center space-y-8 md:space-y-0 md:space-x-8 mb-8">
+    {/* First Image and Description */}
+    <div className="flex flex-col items-center w-full md:w-2/3 lg:w-1/2">
+      <img src="https://i.ibb.co/r3192zn/GD.jpg" className="rounded-xl slide-in-left w-full" />
+      <div className="text-center mt-4" style={{ fontFamily: 'JetBrains Mono, monospace' }}>
+        <h3 className="text-2xl p-3">Board Of Director</h3>
+        <h1 className="text-xl px-4">Dr. P.Santosh Kumar Patra</h1>
       </div>
     </div>
+
+    {/* Second Image and Description */}
+    <div className="flex flex-col items-center w-full md:w-2/3 lg:w-1/2">
+      <img src="https://i.ibb.co/kJbcpxn/DSC-0217.jpg" alt="" className="slide-in-left rounded-xl w-full" />
+      <div className="text-center mt-4" style={{ fontFamily: 'JetBrains Mono, monospace' }}>
+        <h3 className="text-2xl p-3">CSM - Head Of Department</h3>
+        <h1 className="text-xl px-4">Dr. K.Srinivas</h1>
+        <p className="px-4">
+          {/* Add the description for Dr. K.Srinivas here */}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
   );
 }
 

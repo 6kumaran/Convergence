@@ -26,7 +26,7 @@ const Navbar: React.FC<NavbarProps> = ({ hideRegisterButton }) => {
 
   return (
     <nav className="bg-black border-gray-200 dark:bg-black" style={{ fontFamily: 'Nasalization, sans-serif' }}>
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-1">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="https://i.ibb.co/vDKWPPc/Untitled-1.png" width={200} height={75} alt="" />
         </a>

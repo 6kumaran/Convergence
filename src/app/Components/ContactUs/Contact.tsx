@@ -54,8 +54,8 @@ const Contact = () => {
                             Phone number
                         </dt>
                         <dd className="mt-2 text-base text-gray-500">
-                            +91 123 456 7890<br/>
-                            +91 234 567 8901
+                            +91 70758 02770<br/>
+                            +91 78159 38246
                         </dd>
                     </div>
                 </div>
