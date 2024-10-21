@@ -10,8 +10,7 @@ interface Product {
   subtitle?: string;  
 }
 
-// FlipCard component
-import FlipCard from '../flip-card'; // Assuming FlipCard is in the same directory
+
 
 export default function HeroParallaxDemo() {
   useEffect(() => {

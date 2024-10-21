@@ -1,5 +1,4 @@
 import { FocusCards } from "@/app/Components/ui/focus-cards";
-import { div } from "framer-motion/client";
 
 export default function FocusCardsDemo() {
   const cards = [

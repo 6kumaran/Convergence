@@ -3,18 +3,20 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { cn } from "../../lib/utils";
 
+// Define the card type explicitly
+type CardProps = {
+  card: {
+    title: string;
+    src: string;
+    desc: string; // Add description since it's used in your card
+  };
+  index: number;
+  hovered: number | null;
+  setHovered: React.Dispatch<React.SetStateAction<number | null>>;
+};
+
 export const Card = React.memo(
-  ({
-    card,
-    index,
-    hovered,
-    setHovered,
-  }: {
-    card: any;
-    index: number;
-    hovered: number | null;
-    setHovered: React.Dispatch<React.SetStateAction<number | null>>;
-  }) => (
+  ({ card, index, hovered, setHovered }: CardProps) => (
     <div
       onMouseEnter={() => setHovered(index)}
       onMouseLeave={() => setHovered(null)}
@@ -35,8 +37,13 @@ export const Card = React.memo(
           hovered === index ? "opacity-100" : "opacity-0"
         )}
       >
-        <div className="text-lg md:text-xl font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-200" style={{ fontFamily: 'Nasalization, sans-serif' }}>
-          {card.title}<br /><br />
+        <div
+          className="text-lg md:text-xl font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-200"
+          style={{ fontFamily: "Nasalization, sans-serif" }}
+        >
+          {card.title}
+          <br />
+          <br />
           {card.desc}
         </div>
       </div>
@@ -46,12 +53,12 @@ export const Card = React.memo(
 
 Card.displayName = "Card";
 
-type Card = {
-  title: string;
-  src: string;
+// Use the same type for cards in FocusCards
+type FocusCardsProps = {
+  cards: { title: string; src: string; desc: string }[];
 };
 
-export function FocusCards({ cards }: { cards: Card[] }) {
+export function FocusCards({ cards }: FocusCardsProps) {
   const [hovered, setHovered] = useState<number | null>(null);
 
   return (
