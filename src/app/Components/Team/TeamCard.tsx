@@ -14,7 +14,7 @@ export default function FocusCardsDemo() {
     },
     {
       title: "Tanusri",
-      desc: "Marketing Committee",
+      desc: "Marketing Lead",
       src: "https://i.ibb.co/X8YbQnh/Tanu.jpg",
     },
     {
