@@ -17,7 +17,7 @@ const Questival = () => {
         <p className="text-base md:text-lg">
           Venue: JC Block -3rd Floor & Outdoor Sports Arena<br /> Price: Rs. 50(Per Head) 
         </p>
-        <button onClick={handleRegisterClick} className="hidden md:block mt-3 md:mt-0 text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center">
+        <button onClick={handleRegisterClick} className="hidden md:block mt-3 md:mt-0 text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-5 py-3 text-center">
           REGISTER
         </button>
       </div>

@@ -17,14 +17,14 @@ const CodeClash = () => {
         <p className="text-base md:text-lg">
           Venue: JC Block -3rd Floor<br /> Price: Rs. 60 
         </p>
-        <button onClick={handleRegisterClick} className="hidden md:block mt-3 md:mt-0 text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center">
+        <button onClick={handleRegisterClick} className="hidden md:block mt-3 md:mt-0 text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-5 py-3 text-center">
           REGISTER
         </button>
       </div>
 
       {/* Register button for small devices */}
       <div className="block md:hidden mt-4">
-        <button onClick={handleRegisterClick} className="text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center w-full">
+        <button onClick={handleRegisterClick} className="text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-5 py-3 text-center w-full">
           REGISTER
         </button>
       </div>
