@@ -121,7 +121,7 @@ export const InfiniteMovingCards = ({
                   </span>
                 </span>
               </div>
-              <button onClick={handleRegisterClick} className="mt-5 mb-5 text-white bg-orange-600 hover:bg-orange-700 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center dark:bg-orange-600 dark:hover:bg-orange-700">
+              <button onClick={handleRegisterClick} className="mt-5 mb-5 text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center dark:bg-orange-600 dark:hover:bg-orange-700">
                 Explore More
               </button>
             </blockquote>

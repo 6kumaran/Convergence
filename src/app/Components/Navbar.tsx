@@ -35,7 +35,7 @@ const Navbar: React.FC<NavbarProps> = ({ hideRegisterButton }) => {
             <button
               type="button"
               onClick={handleRegisterClick}
-              className="text-white bg-orange-600 hover:bg-orange-700 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center dark:bg-orange-600 dark:hover:bg-orange-700"
+              className="text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center dark:bg-orange-600 dark:hover:bg-orange-700"
             >
               REGISTER
             </button>

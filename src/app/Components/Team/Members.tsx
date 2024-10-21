@@ -31,7 +31,7 @@ export default function HeroParallaxDemo() {
     <div className="flex flex-col items-center max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pb-7" style={{ fontFamily: 'Nasalization, sans-serif' }}>
 
 <div className="text-white">
-  <h1 className="text-5xl font-bold text-gray-600 my-10 text-center">Special Thanks To</h1>
+  <h1 className="text-5xl font-bold text-gray-200 my-10 text-center">Special Thanks To</h1>
 
   {/* Flex Container for Images and Descriptions */}
   <div className="flex flex-col md:flex-row md:justify-center space-y-8 md:space-y-0 md:space-x-8 mb-8">
@@ -39,8 +39,9 @@ export default function HeroParallaxDemo() {
     <div className="flex flex-col items-center w-full md:w-2/3 lg:w-1/2">
       <img src="https://i.ibb.co/r3192zn/GD.jpg" className="rounded-xl slide-in-left w-full" />
       <div className="text-center mt-4" style={{ fontFamily: 'JetBrains Mono, monospace' }}>
-        <h3 className="text-2xl p-3">Board Of Director</h3>
-        <h1 className="text-xl px-4">Dr. P.Santosh Kumar Patra</h1>
+        <h3 className="text-2xl p-3">Dr. P. Santosh Kumar Patra</h3>
+        <h2 className="text-xl px-4">Prof. & Group Director</h2>
+        <h1 className="text-lg px-4">St. Martin&apos;s Engineering College</h1>
       </div>
     </div>
 
@@ -48,8 +49,33 @@ export default function HeroParallaxDemo() {
     <div className="flex flex-col items-center w-full md:w-2/3 lg:w-1/2">
       <img src="https://i.ibb.co/kJbcpxn/DSC-0217.jpg" alt="" className="slide-in-left rounded-xl w-full" />
       <div className="text-center mt-4" style={{ fontFamily: 'JetBrains Mono, monospace' }}>
-        <h3 className="text-2xl p-3">CSM - Head Of Department</h3>
-        <h1 className="text-xl px-4">Dr. K.Srinivas</h1>
+        <h3 className="text-2xl p-3">Dr. K. Srinivas</h3>
+        <h1 className="text-xl px-4">Head of Department</h1>
+        <h1 className="text-xl px-4">CSE (AI & ML)</h1>
+        <p className="px-4">
+          {/* Add the description for Dr. K.Srinivas here */}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div className="text-white">
+  <h1 className="text-4xl font-bold text-gray-200 my-10 text-center">Faculty Coordinators</h1>
+  <div className="flex flex-col md:flex-row md:justify-center space-y-8 md:space-y-0 md:space-x-8 mb-8">
+    {/* First Image and Description */}
+    <div className="flex flex-col items-center w-full md:w-1/2 lg:w-1/3">
+      <img src="https://i.ibb.co/dDC0QHx/NC-sir.jpg" className="rounded-xl slide-in-left w-full" />
+      <div className="text-center mt-4" style={{ fontFamily: 'JetBrains Mono, monospace' }}>
+        <h3 className="text-2xl p-3">Mr. K Naveen Chakravarthi</h3>
+        <h2 className="text-xl px-4">Assistant Professor</h2>
+      </div>
+    </div>
+
+    {/* Second Image and Description */}
+    <div className="flex flex-col items-center w-full md:w-1/2 lg:w-1/3">
+      <img src="https://i.ibb.co/8jXN1Jb/CP-sir.jpg" alt="" className="slide-in-left rounded-xl w-full" />
+      <div className="text-center mt-4" style={{ fontFamily: 'JetBrains Mono, monospace' }}>
+        <h3 className="text-2xl p-3">Mr. S Chandra Prakash</h3>
+        <h1 className="text-xl px-4">Assistant Professor</h1>
         <p className="px-4">
           {/* Add the description for Dr. K.Srinivas here */}
         </p>
@@ -58,7 +84,7 @@ export default function HeroParallaxDemo() {
   </div>
 </div>
 
-
+</div>
 </div>
 
   );

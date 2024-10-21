@@ -41,7 +41,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           Convergence 2K24
         </h2>
         <p className="text-stone-300 dark:text-stone-300 text-medium md:text-stone-300 max-w-full">
-        &quot;Convergence&quot; is a dynamic college fest blending technical and non-technical events, offering students a platform to showcase skills, creativity, and teamwork. From coding challenges to E-gaming and fun-filled activities, exciting prizes await winners!
+        Welcome to the events section of Convergence, where you can dive into a wide range of sub-events happening.Check out the timeline, explore each event, and find the ones that suit you the best. Ready to compete, showcase your skills, or just have fun? Don&apos;t forget to register for your favorite events and be a part of the excitement!
         </p>
       </div>
 
@@ -55,13 +55,13 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
                 <div className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
-              <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-neutral-500 dark:text-neutral-500 ">
+              <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-purple-400 dark:text-purple-400 ">
                 {item.title}
               </h3>
             </div>
 
             <div className="relative pl-20 pr-4 md:pl-4 w-full">
-              <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
+              <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-purple-400 dark:text-purple-400">
                 {item.title}
               </h3>
               {item.content}{" "}

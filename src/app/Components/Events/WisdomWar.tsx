@@ -17,14 +17,14 @@ const WisdomWar = () => {
         <p className="text-base md:text-lg">
           Venue: SCB Block Auditorium<br /> Price: Rs. 50(Per Head) 
         </p>
-        <button onClick={handleRegisterClick} className="hidden md:block mt-3 md:mt-0 text-white bg-orange-600 hover:bg-orange-700 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center">
+        <button onClick={handleRegisterClick} className="hidden md:block mt-3 md:mt-0 text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center">
           REGISTER
         </button>
       </div>
 
       {/* Register button for small devices */}
       <div className="block md:hidden mt-4">
-        <button onClick={handleRegisterClick} className="text-white bg-orange-600 hover:bg-orange-700 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center w-full">
+        <button onClick={handleRegisterClick} className="text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center w-full">
           REGISTER
         </button>
       </div>
@@ -34,17 +34,17 @@ const WisdomWar = () => {
         <div style={{ fontFamily: 'JetBrains Mono, monospace' }} className="text-base md:text-lg lg:text-xl max-w-3xl overflow-wrap break-word leading-relaxed">
         <div>Do you have what it takes to outsmart your peers and claim the title of quiz champion? Wisdom War is your chance to prove it! This fun and exciting non-tech quiz will put your general knowledge and quick thinking to the test, with a range of questions from easy to hard.</div>
 
- <br /><div style={{ fontFamily: 'Nasalization, sans-serif' }} className='font-bold text-xl'>How It Works:</div>
+ <br /><div style={{ fontFamily: 'Nasalization, sans-serif' }} className='font-bold text-xl text-orange-600'>How It Works:</div>
 <div className='pl-3'>- Get ready to tackle 40 questions with 3 different levels.
 <br />- Start with some easy ones to warm up, but it will get tricky as you progress through the rounds!
 <br />- After each round, the top performers will advance to the next level, where the winners will be decided with the duo that scores the most.</div>
 
- <br /><div style={{ fontFamily: 'Nasalization, sans-serif' }} className='font-bold text-xl'>Scoring:</div>
+ <br /><div style={{ fontFamily: 'Nasalization, sans-serif' }} className='font-bold text-xl text-blue-800'>Scoring:</div>
 <div className='pl-3'>- 1 point for each correct answer.
 <br />- No pressure—no negative marking, so give it your best shot!</div>
 
 
- <br /><div style={{ fontFamily: 'Nasalization, sans-serif' }} className='font-bold text-xl'>Why Join?</div>
+ <br /><div style={{ fontFamily: 'Nasalization, sans-serif' }} className='font-bold text-xl text-yellow-700'>Why Join?</div>
 <div className='pl-3'>- Test your knowledge in a fun, competitive environment.
 <br />- Challenge yourself and rise to the top!
 <br />- Show off your quick-thinking skills and win the competition!</div>

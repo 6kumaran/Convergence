@@ -17,14 +17,14 @@ const ContentCrafters = () => {
         <p className="text-base md:text-lg">
           Venue: SCB Block Auditorium<br /> Price: Rs. 50(Per Head) 
         </p>
-        <button onClick={handleRegisterClick} className="hidden md:block mt-3 md:mt-0 text-white bg-orange-600 hover:bg-orange-700 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center">
+        <button onClick={handleRegisterClick} className="hidden md:block mt-3 md:mt-0 text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center">
           REGISTER
         </button>
       </div>
 
       {/* Register button for small devices */}
       <div className="block md:hidden mt-4">
-        <button onClick={handleRegisterClick} className="text-white bg-orange-600 hover:bg-orange-700 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center w-full">
+        <button onClick={handleRegisterClick} className="text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center w-full">
           REGISTER
         </button>
       </div>
@@ -34,16 +34,16 @@ const ContentCrafters = () => {
         <div style={{ fontFamily: 'JetBrains Mono, monospace' }} className="text-base md:text-lg lg:text-xl max-w-3xl overflow-wrap break-word leading-relaxed">
         Are you ready to show off your creative skills in a competition that&apos;s all about imagination and innovation? Content Crafters is the event for you! Whether you&apos;re a pro at crafting perfect prompts or a whiz at video editing, this is your chance to shine.
 
-<br /><br />1. PromptGen (AI-Generated Images): 
+<div className='text-orange-600'><br /><br />1. PromptGen (AI-Generated Images):</div>
 <div className='pl-5'>   <br />- Got a way with words? Use your creativity to write prompts that generate stunning images using AI tools. Craft a prompt that brings your vision to life and see how it transforms into a masterpiece. The most creative and visually striking images win!</div>
    
-<br /><br />2. Reel It In (Reel Creation): 
+<div className='text-blue-800'><br /><br />2. Reel It In (Reel Creation):</div> 
 <div className='pl-5'> <br /> - Love video editing? We just have the right competition for you.
 <br /><br />
-Detailed Information…Coming SOON !!!
+Detailed Information… <span className='font-bold text-3xl'>Coming SOON !!!</span>
 </div>
 
-<br /><br />Why Participate?
+<div className='text-yellow-700'><br /><br />Why Participate?</div>
 <div className='pl-5'>
 <br />- Showcase Your Creativity: Whether it&apos;s through AI-generated images or creating eye-catching reels, you&apos;ll have a platform to express your creativity.
 <br />- Learn and Compete: You&apos;ll get the chance to learn and compete in a fun, creative environment alongside other talented students.
