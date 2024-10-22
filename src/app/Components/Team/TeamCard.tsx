@@ -38,6 +38,11 @@ export default function FocusCardsDemo() {
       src: "https://i.ibb.co/bQqqSTT/Jatin.jpg",
     },
     {
+      title: "Kumaran",
+      desc: "Technical Lead",
+      src: "https://i.ibb.co/60B0b8t/Myself.jpg",
+    },
+    {
       title: "Navyatha",
       desc: "Cultural",
       src: "https://i.ibb.co/vZ2G5Kc/Navya.jpg",
@@ -61,11 +66,6 @@ export default function FocusCardsDemo() {
         title: "Harsh",
         desc: "Marketing",
         src: "https://i.ibb.co/r6XJkwy/Harsh.jpg",
-      },
-      {
-        title: "Kumaran",
-        desc: "Technical Lead",
-        src: "https://i.ibb.co/60B0b8t/Myself.jpg",
       },
   ];
 
