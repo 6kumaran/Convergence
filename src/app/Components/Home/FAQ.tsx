@@ -10,7 +10,7 @@ const FAQs: React.FC = () => {
     },
     {
       question: "Do students have to assemble near the event venues?",
-      answer: "NO! Coordinators will call you from your respective departments, till then no one is allowed.",
+      answer: "NO! Escort Team will call you from your respective departments, till then no one is allowed outside.",
     },
     {
       question: "How to Register for events?",
@@ -26,7 +26,7 @@ const FAQs: React.FC = () => {
     },
     {
       question: "Whom can I contact for queries?",
-      answer: "+91 1234567890 (For more details visit the Contacts Page)",
+      answer: "+91 70758 02770 (For more details visit the Contacts Page)",
     },
     {
       question: "Can we form our own teams, or will we be allotted to a particular team?",
