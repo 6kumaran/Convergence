@@ -3,7 +3,7 @@ import React from 'react';
 
 const Questival = () => {
   const handleRegisterClick = () => {
-    window.location.href = 'https://docs.google.com/forms/d/1eHEG3zSCm61nSn1WHxqc_dnaJyliddxzFF_FzU4pIeI/edit'; // Replace with your actual Google Form link
+    window.location.href = 'https://forms.gle/qqfv13q7Vf88PxucA'; // Replace with your actual Google Form link
   };
   return (
     <div className="relative h-auto bg-black text-white max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-7" style={{ fontFamily: 'Nasalization, sans-serif' }}>

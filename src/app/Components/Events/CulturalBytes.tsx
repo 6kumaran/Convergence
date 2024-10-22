@@ -3,7 +3,10 @@ import React from 'react';
 
 const CulturalBytes = () => {
   const handleRegisterClick = () => {
-    window.location.href = 'https://docs.google.com/forms/d/1eHEG3zSCm61nSn1WHxqc_dnaJyliddxzFF_FzU4pIeI/edit'; // Replace with your actual Google Form link
+    window.location.href = 'https://forms.gle/aGyd1DtPckbcMSpg7'; // Replace with your actual Google Form link
+  };
+  const handleRegisterClick2 = () => {
+    window.location.href = 'https://forms.gle/t98R2ZQbCtSYSdQA7'; // Replace with your actual Google Form link
   };
   return (
     <div className="relative h-auto bg-black text-white max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-7" style={{ fontFamily: 'Nasalization, sans-serif' }}>
@@ -20,12 +23,18 @@ const CulturalBytes = () => {
         <button onClick={handleRegisterClick} className="hidden md:block mt-3 md:mt-0 text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center">
           REGISTER
         </button>
+        <button onClick={handleRegisterClick2} className="hidden md:block mt-3 md:mt-0 text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center">
+          REGISTER for Audience
+        </button>
       </div>
 
       {/* Register button for small devices */}
       <div className="block md:hidden mt-4">
         <button onClick={handleRegisterClick} className="text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-5 py-3 text-center w-full">
           REGISTER
+        </button>
+        <button onClick={handleRegisterClick2} className="mt-4 text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-5 py-3 text-center w-full">
+          REGISTER for Audience
         </button>
       </div>
 
