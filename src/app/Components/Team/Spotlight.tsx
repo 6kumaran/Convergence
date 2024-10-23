@@ -13,7 +13,7 @@ export default function SpotlightPreview() {
           Meet the talented team.
         </h1>
         <p className="mt-4 font-normal text-base text-neutral-300 max-w-full text-center mx-auto" style={{ fontFamily: 'JetBrains Mono, monospace' }}>
-        Meet the dedicated team behind the fest, each bringing their unique skills to ensure its success. From coordinating events and marketing strategies to handling logistics and technical support, this team has worked tirelessly to create a memorable experience for all attendees. Their passion and commitment are the driving forces behind the event&apos;s success.
+        Bringing together a blend of creativity, organization, and expertise, this team is the engine behind the fest. From orchestrating event logistics and crafting marketing plans to nailing the tech and support aspects, they&apos;ve been working behind the scenes to ensure everything runs smoothly. While the event is still in progress, rest assured — their diligence is all about making this fest one for the books.
         </p>
       </div>
     </div>

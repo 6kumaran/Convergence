@@ -64,7 +64,7 @@ export default function FocusCardsDemo() {
     },
     {
       title: "Nimrah",
-      desc: "Marketing",
+      desc: "Cultural",
       src: "https://i.ibb.co/VpKkRkX/Nimrah1.jpg",
     },
   ];

@@ -54,8 +54,10 @@ const Contact = () => {
                             Phone number
                         </dt>
                         <dd className="mt-2 text-base text-gray-500">
+                        +91 87122 76636 Gahana(4th Year)<br/>
                             +91 70758 02770 M. Aditya(4th Year)<br/>
-                            +91 78159 38246 S. Kumaran(4th Year)
+                            +91 78159 38246 S. Kumaran(4th Year)<br />
+                            
                         </dd>
                     </div>
                 </div>

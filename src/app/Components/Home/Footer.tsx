@@ -14,13 +14,13 @@ const Footer = () => {
 </nav>
 
 <div className="flex justify-center space-x-5">
-    <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDZqqLWJhlBmkvLBNnCcxVJlWvRBGZCbZbjBqGhLlKjRWZVTpNbKgvvwVJjqgdCTmCwBTss" target="_blank" rel="noopener noreferrer">
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=convergence2k24@gmail.com" target="_blank" rel="noopener noreferrer">
         <img src="https://i.ibb.co/mNQLNvM/Mail2.png" className='h-7 w-7 rounded-full' />
     </a>
     <a href="https://www.instagram.com/convergence_2k24/" target="_blank" rel="noopener noreferrer">
         <img src="https://i.ibb.co/2dCY8v9/instagram-new.png" />
     </a>
-    <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+    <a href="https://chat.whatsapp.com/GCUgm2Swwl11tmC0KllnKF" target="_blank" rel="noopener noreferrer">
         <img src="https://i.ibb.co/BNSB8xd/Whatsapp-removebg-preview-2-1.png" className='h-7 w-7' />
     </a>
     

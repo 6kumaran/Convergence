@@ -9,13 +9,13 @@ const WisdomWar = () => {
     <div className="relative h-auto bg-black text-white max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-7" style={{ fontFamily: 'Nasalization, sans-serif' }}>
       {/* Title and new paragraph with button on the right end */}
       <div className="mt-8 flex flex-col md:flex-row justify-between items-center">
-        <h1 className="text-6xl md:text-4xl ">Wisdom War</h1>
+        <h1 className="text-6xl md:text-4xl text-yellow-700">Wisdom War</h1>
       </div>
 
       {/* Paragraph and button aligned separately */}
       <div className="mt-6 flex flex-col md:flex-row justify-between items-center">
         <p className="text-base md:text-lg">
-          Venue: SCB Block Auditorium<br /> Price: Rs. 50(Per Head) 
+          Venue: SCB Block Auditorium<br /> Price: Rs. 60(Per Head) 
         </p>
         <button onClick={handleRegisterClick} className="hidden md:block mt-3 md:mt-0 text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center">
           REGISTER

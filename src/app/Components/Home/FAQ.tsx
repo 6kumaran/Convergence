@@ -26,7 +26,7 @@ const FAQs: React.FC = () => {
     },
     {
       question: "Whom can I contact for queries?",
-      answer: "+91 70758 02770 (For more details visit the Contacts Page)",
+      answer: "+91 70758 02770 [Aditya]. For more details visit the Contacts Page",
     },
     {
       question: "Can we form our own teams, or will we be allotted to a particular team?",
