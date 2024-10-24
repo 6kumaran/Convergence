@@ -46,7 +46,7 @@ const BattleBonanza = () => {
 <div className='pl-3'>- Teams will face off in multiple rounds.
 <br />- Only the top teams from each round will qualify to the finals. The 2nd and 3rd winners will be having free entry to the next rounds.
 <br />- The finalists will then battle it out to see who emerges as the ultimate top three winners!
-<br />- If the team (other than the top 3) wishes to play in th</div>
+<br />- <span className='font-bold'>NOTE:</span> If the team (other than the top 3) wishes to play in the next round, they have to pay the registration fee again.</div>
 <br />
  <div className='font-bold text-xl text-blue-800'>Why You Should Join:</div>
 <div className='pl-3'>- Test your gaming skills in a competitive environment.

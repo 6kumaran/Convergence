@@ -42,7 +42,8 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         </h2>
         <p className="text-stone-300 dark:text-stone-300 text-medium md:text-stone-300 max-w-full">
         Welcome to the events section of Convergence, where you can dive into a wide range of sub-events happening.Check out the timeline, explore each event, and find the ones that suit you the best. Ready to compete, showcase your skills, or just have fun? Don&apos;t forget to register for your favorite events and be a part of the excitement!
-        </p>
+        </p><br /><br />
+        <p className="text-stone-300 dark:text-stone-300 text-xl md:text-stone-300 max-w-full">Click on the event to Register</p>
       </div>
 
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">

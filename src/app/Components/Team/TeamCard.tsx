@@ -48,7 +48,7 @@ export default function FocusCardsDemo() {
       src: "https://i.ibb.co/XS0PLPM/Sahasra3-1.jpg",
     },    
     {
-        title: "Kruti",
+        title: "Kruthi",
         desc: "Design",
         src: "https://i.ibb.co/1d8388b/Kruti.jpg",
       },
