@@ -49,7 +49,7 @@ const BrainGpt = () => {
           <br /><br />
           <div className='text-3xl'>Agenda:</div>
           <div style={{ fontFamily: 'JetBrains Mono, monospace' }}><br/>Session 1: Providing the (abstract) lining of the idea
-          <br />Session 2: Mentorship by the mentors (4th-year students) and participants continuing to work on their idea
+          <br />Session 2: Guidance by the mentors (4th-year students) and participants continuing to work on their idea
           <br />Session 3: Final presentation to the judges
           <br /><br /></div>
           <span className='text-orange-600'>Session 1:</span> The Abstract Round

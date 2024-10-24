@@ -40,20 +40,22 @@ const Questival = () => {
 <br /><div style={{ fontFamily: 'JetBrains Mono, monospace' }}>All the participants will undergo a series of selection rounds where they will showcase their team spirit. There will be three rounds in which the selection is going to be held for the final and the main mystery to be solved.</div>
 <br /><div className='text-3xl'>Selection Rounds:</div>
 <br /><div className='text-2xl pl-5 text-orange-600'>ROUND 1- Memory Room</div>
-<br /><div className='pl-8' style={{ fontFamily: 'JetBrains Mono, monospace' }}>Here, the teams will be entering a room full of 30–40 elements. All the team members have to memorize everything and then note it down. The team that gets the most elements right will move on to the next round.</div>
+<br /><div className='pl-8' style={{ fontFamily: 'JetBrains Mono, monospace' }}>Here, the teams will be entering a room full of 30-40 elements. All the team members have to memorize everything and then note it down. The team that gets the most elements right will move on to the next round.</div>
 <br /><br /><div className='text-2xl pl-5 text-blue-800'>ROUND 2- BASE (Balance, Agility, Strength, Endurance)</div>
 <br /><div className='pl-8' style={{ fontFamily: 'JetBrains Mono, monospace' }}>In this thrilling penultimate round, teams will engage in a sequence of physical and mental challenges, each testing one of the four key elements: Balance, Agility, Strength, and Endurance. The ultimate goal is to collaboratively build a 10-cup tower, with each layer added after completing a specific challenge.
+<br /><br /><span className='font-bold text-2xl'>Note :</span> No member can compete in more than one element.
+<br /><br />Time will be tracked for the entire team as they complete the sequence. The team that completes the tower in the least amount of time will secure a spot in the Final Destination round. Teamwork, coordination, and speed are critical to success in this stage.
 <br /><br /><span className='font-bold text-2xl'>Agility</span> (Base Layer - 4 Cups):
 <br /><br /><span className='pl-3'>The round begins with a running race, where each team member must carry two cups at a time through a predefined path. Their agility will be tested as they work together to form the first base of the tower with 4 cups.</span>
 <br /><br /><span className='font-bold text-2xl'>Endurance</span> (Middle Layer - 3 Cups):
-<br /><br /><span className='pl-3'>The next challenge will emphasize endurance (specifics to be finalized), allowing the team to construct the middle layer of 3 cups, adding stability to their tower.</span>
+<br /><br /><span className='pl-3'>The next challenge tests your endurance with a hopping task, where your team will build the crucial middle layer of 3 cups, adding much-needed stability to your tower.</span>
 <br /><br /><span className='font-bold text-2xl'>Balance</span> (Second-to-Last Layer - 2 Cups):
 <br /><br /><span className='pl-3'>Teams will then face a lemon and spoon race, where participants must balance a spoon with a lemon while also carrying 2 cups. This tests precision and composure as they place the cups to form the second-to-last layer of the tower.</span>
 <br /><br /><span className='font-bold text-2xl'>Strength</span> (Final Cup):
 <br /><br /><span className='pl-3'>In the final challenge, the team &apos;s strength will be put to the test. One member will carry weights while holding the final cup, carefully placing it on top to complete the tower.</span>
 <br /><br />Time will be tracked for the entire team as they complete the sequence. The team that completes the tower in the least amount of time will secure a spot in the Final Destination round. Teamwork, coordination, and speed are critical to success in this stage.</div>
 <br /><br /><div className='text-2xl pl-5 text-yellow-700'>ROUND 3 - THE FINAL DESTINATION</div>
-<br /><div className='pl-8' style={{ fontFamily: 'JetBrains Mono, monospace' }}>Here, the teams will be given five riddles to solve. The initial three riddles are variable for each team. Teams should try to complete this as soon as they can. After each solved riddle, they will be one step closer to their final win. The last two riddles are common to all five teams. So the one who finds and solves them first will be considered the winner.</div>
+<br /><div className='pl-8' style={{ fontFamily: 'JetBrains Mono, monospace' }}>The teams will be given five clues to solve. The initial three clues are different for each team. The last two clues are common to all five teams. The team to solve the clues and find the treasure first will be considered the winners.</div>
 
         </div>
       </div>

@@ -4,42 +4,42 @@ export default function FocusCardsDemo() {
   const cards = [
     {
       title: "Gahana",
-      desc: "Lead Coordinator & Design Head",
+      desc: "Head Coordinator & Creative Head",
       src: "https://i.ibb.co/6DzNx9j/gwebcon.jpg",
     },
     {
       title: "Aditya",
-      desc: "Finance Lead",
+      desc: "Finance Head",
       src: "https://i.ibb.co/QMgSjYP/Adi1-1.jpg",
     },
     {
       title: "Kumaran",
-      desc: "Technical Lead",
+      desc: "Technical Head",
       src: "https://i.ibb.co/60B0b8t/Myself.jpg",
     },
     {
       title: "Sufiyan",
-      desc: "Logistics Lead",
+      desc: "Logistics Head",
       src: "https://i.ibb.co/my54dc2/Sufi.jpg",
     },
     {
       title: "Kalyan",
-      desc: "Operations Lead",
+      desc: "Operations Head",
       src: "https://i.ibb.co/87GKb1c/Kalyan-Web.jpg",
     },
     {
       title: "Varsha",
-      desc: "Cultural Lead",
+      desc: "Cultural Head",
       src: "https://i.ibb.co/qCt0bZ8/Varsha.jpg",
     },
     {
       title: "Tanusri",
-      desc: "Marketing Lead",
+      desc: "Marketing Head",
       src: "https://i.ibb.co/X8YbQnh/Tanu.jpg",
     },
     {
       title: "Jatin",
-      desc: "Photography Lead ",
+      desc: "Photography Head ",
       src: "https://i.ibb.co/bQqqSTT/Jatin.jpg",
     },
     {
@@ -64,7 +64,7 @@ export default function FocusCardsDemo() {
     },
     {
       title: "Nimrah",
-      desc: "Cultural",
+      desc: "Marketing",
       src: "https://i.ibb.co/VpKkRkX/Nimrah1.jpg",
     },
   ];
