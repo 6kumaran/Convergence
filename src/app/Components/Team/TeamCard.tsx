@@ -4,7 +4,7 @@ export default function FocusCardsDemo() {
   const cards = [
     {
       title: "Gahana",
-      desc: "Head Coordinator & Creative Head",
+      desc: "Lead Coordinator & Creative Head",
       src: "https://i.ibb.co/6DzNx9j/gwebcon.jpg",
     },
     {
@@ -64,7 +64,7 @@ export default function FocusCardsDemo() {
     },
     {
       title: "Nimrah",
-      desc: "Marketing",
+      desc: "Cultural",
       src: "https://i.ibb.co/VpKkRkX/Nimrah1.jpg",
     },
   ];
