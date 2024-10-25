@@ -17,17 +17,17 @@ const ContentCrafters = () => {
         <p className="text-base md:text-lg">
           Venue: SCB Block Auditorium<br /> Price: Rs. 50(Per Head) 
         </p>
-        <button onClick={handleRegisterClick} className="hidden md:block mt-3 md:mt-0 text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center">
+        {/* <button onClick={handleRegisterClick} className="hidden md:block mt-3 md:mt-0 text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center">
           REGISTER
-        </button>
+        </button> */}
       </div>
 
       {/* Register button for small devices */}
-      <div className="block md:hidden mt-4">
+      {/* <div className="block md:hidden mt-4">
         <button onClick={handleRegisterClick} className="text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-5 py-3 text-center w-full">
           REGISTER
         </button>
-      </div>
+      </div> */}
 
       {/* Responsive paragraph content starts below the venue and button */}
       <div className="mt-10 flex flex-col items-center justify-center h-auto px-4 sm:px-8 text-left">

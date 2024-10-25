@@ -42,13 +42,12 @@ const BattleBonanza = () => {
         <div style={{ fontFamily: 'JetBrains Mono, monospace' }} className="text-base md:text-lg lg:text-xl max-w-3xl overflow-wrap break-word leading-relaxed">
         <div>Are you ready to prove you &apos;re the best in the battle royale arena? GAME OVER is your chance to dominate in BGMI and FreeFire! Bring your squad, strategize, and outlast your opponents in an intense competition filled with thrilling battles and high stakes.</div>
 <br />
- <div className='font-bold text-xl text-orange-600'>Event Structure:</div>
 
 <div className='font-bold text-purple-500 text-2xl'>Only limited registrations available -
  <br />- BGMI (50 Squads only)
  <br />- FREE FIRE (48 Squads only)</div>
-
 <br />
+ <div className='font-bold text-xl text-orange-600'>Event Structure:</div>
 <div className='pl-3'><span className='text-yellow-500'>BGMI-</span>
  <div className='pl-3'>* Two classic battles will be conducted parallely (25 squads each).
  <br />* Squads will faceoff in the classic match     (erangel map).
