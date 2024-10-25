@@ -31,7 +31,7 @@ export default function TimelineDemo() {
             </Link>
             <Link href="/braingpt">
             <div className="group relative card">
-            <h1 className="text-white block md:hidden">Session 1: Abstract Round</h1>
+            <h1 className="text-white block md:hidden">BrainGPT: Abstract Round</h1>
             <Image
               src="https://i.ibb.co/58dPpkb/Event-Cards-Website-page-0003.jpg"
               alt=""
@@ -40,7 +40,7 @@ export default function TimelineDemo() {
               className="rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <p className="text-white text-sm font-medium p-4">Session 1: Abstract Round</p>
+                <p className="text-white text-sm font-medium p-4">BrainGPT: Abstract Round</p>
               </div>
             </div>
             </Link>
@@ -63,7 +63,7 @@ export default function TimelineDemo() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Link href="/braingpt">
           <div className="group relative card">
-          <h1 className="text-white block md:hidden">Session 2: Guidance</h1>
+          <h1 className="text-white block md:hidden">BrainGPT: Guidance Round</h1>
           <Image
               src="https://i.ibb.co/58dPpkb/Event-Cards-Website-page-0003.jpg"
               alt=""
@@ -72,7 +72,7 @@ export default function TimelineDemo() {
               className="rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <p className="text-white text-sm font-medium p-4">Session 2: Guidance</p>
+                <p className="text-white text-sm font-medium p-4">BrainGPT: Guidance Round</p>
               </div>
             </div>
             </Link>
@@ -108,7 +108,7 @@ export default function TimelineDemo() {
             </Link>
             <Link href="/questival">
             <div className="group relative card">
-            <h1 className="text-white block md:hidden">Memory Room</h1>
+            <h1 className="text-white block md:hidden">Questival: Memory Room</h1>
             <Image
               src="https://i.ibb.co/BsXjcf6/Event-Cards-Website-page-0004.jpg"
               alt=""
@@ -117,7 +117,7 @@ export default function TimelineDemo() {
               className="rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <p className="text-white text-sm font-medium p-4">Memory Room</p>
+                <p className="text-white text-sm font-medium p-4">Questival: Memory Room</p>
               </div>
             </div>
             </Link>
@@ -152,7 +152,7 @@ export default function TimelineDemo() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Link href="/braingpt">
           <div className="group relative card">
-          <h1 className="text-white block md:hidden">Session 3: Final Presentation</h1>
+          <h1 className="text-white block md:hidden">BrainGPT: Final Presentation</h1>
           <Image
               src="https://i.ibb.co/58dPpkb/Event-Cards-Website-page-0003.jpg"
               alt=""
@@ -161,28 +161,14 @@ export default function TimelineDemo() {
               className="rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <p className="text-white text-sm font-medium p-4">Session 3: Final Presentation</p>
+                <p className="text-white text-sm font-medium p-4">BrainGPT: Final Presentation</p>
               </div>
             </div>
             </Link>
-            <Link href="/questival">
-            <div className="group relative card">
-            <h1 className="text-white block md:hidden">BASE</h1>
-            <Image
-              src="https://i.ibb.co/BsXjcf6/Event-Cards-Website-page-0004.jpg"
-              alt=""
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <p className="text-white text-sm font-medium p-4">BASE</p>
-              </div>
-            </div>
-            </Link>
+            
             <Link href="/battle-bonanza">
             <div className="group relative card">
-            <h1 className="text-white block md:hidden">Game Over</h1>
+            <h1 className="text-white block md:hidden">Game Over: BGMI & FreeFire</h1>
             <Image
               src="https://i.ibb.co/XJP3vtn/Event-Cards-Website-page-0002.jpg"
               alt=""
@@ -191,13 +177,13 @@ export default function TimelineDemo() {
               className="rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <p className="text-white text-sm font-medium p-4">Game Over</p>
+                <p className="text-white text-sm font-medium p-4">Game Over: BGMI & FreeFire</p>
               </div>
             </div>
             </Link>
             <Link href="/content-crafters">
             <div className="group relative card">
-            <h1 className="text-white block md:hidden">Content Crafters</h1>
+            <h1 className="text-white block md:hidden">Content Crafters: PromptGen & Reel It In</h1>
             <Image
               src="https://i.ibb.co/wwkTjv0/Event-Cards-Website-page-0005.jpg"
               alt=""
@@ -206,7 +192,22 @@ export default function TimelineDemo() {
               className="rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <p className="text-white text-sm font-medium p-4">Content Crafters</p>
+                <p className="text-white text-sm font-medium p-4">Content Crafters: PromptGen & Reel It In</p>
+              </div>
+            </div>
+            </Link>
+            <Link href="/questival">
+            <div className="group relative card">
+            <h1 className="text-white block md:hidden">Questival: BASE </h1>
+            <Image
+              src="https://i.ibb.co/BsXjcf6/Event-Cards-Website-page-0004.jpg"
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <p className="text-white text-sm font-medium p-4">Questival: BASE </p>
               </div>
             </div>
             </Link>
@@ -224,7 +225,7 @@ export default function TimelineDemo() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Link href="/questival">
           <div className="group relative card">
-          <h1 className="text-white block md:hidden">Treasure Hunt</h1>
+          <h1 className="text-white block md:hidden">Questival: Final Destination</h1>
           <Image
               src="https://i.ibb.co/BsXjcf6/Event-Cards-Website-page-0004.jpg"
               alt=""
@@ -233,13 +234,13 @@ export default function TimelineDemo() {
               className="rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <p className="text-white text-sm font-medium p-4">Treasure Hunt</p>
+                <p className="text-white text-sm font-medium p-4">Questival: Final Destination</p>
               </div>
             </div>
             </Link>
             <Link href="/cultural-bytes">
             <div className="group relative card">
-            <h1 className="text-white block md:hidden">Closing Ceremony</h1>
+            <h1 className="text-white block md:hidden">Cultural Bytes & Closing Ceremony</h1>
             <Image
               src="https://i.ibb.co/6b9vDJ5/Event-Cards-Website-page-0008.jpg"
               alt=""
@@ -248,7 +249,7 @@ export default function TimelineDemo() {
               className="rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <p className="text-white text-sm font-medium p-4">Closing Ceremony</p>
+                <p className="text-white text-sm font-medium p-4">Cultural Bytes & Closing Ceremony</p>
               </div>
             </div>
             </Link>

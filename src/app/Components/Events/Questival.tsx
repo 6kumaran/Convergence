@@ -15,7 +15,7 @@ const Questival = () => {
       {/* Paragraph and button aligned separately */}
       <div className="mt-6 flex flex-col md:flex-row justify-between items-center">
         <p className="text-base md:text-lg">
-          Venue: JC Block -3rd Floor & Outdoor Sports Arena<br /> Price: Rs. 60(Per Head) 
+          Venue: Seminar Hall, JC Block, Outdoor Sports Arena<br /> Price: Rs. 60(Per Head) 
         </p>
         <button onClick={handleRegisterClick} className="hidden md:block mt-3 md:mt-0 text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-5 py-3 text-center">
           REGISTER
