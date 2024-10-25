@@ -37,7 +37,6 @@ const WisdomWar = () => {
  <br /><div style={{ fontFamily: 'Nasalization, sans-serif' }} className='font-bold text-xl text-orange-600'>How It Works:</div>
 <div className='pl-3'>- Get ready to tackle 40 questions with 3 different levels.
 <br />- Start with some easy ones to warm up, but it will get tricky as you progress through the rounds!
-<br />- After each round, the top performers will advance to the next level, where the winners will be decided with the duo that scores the most.
 <br />- The winners will be decided with the duo that scores the most.</div>
 
  <br /><div style={{ fontFamily: 'Nasalization, sans-serif' }} className='font-bold text-xl text-blue-800'>Scoring:</div>
