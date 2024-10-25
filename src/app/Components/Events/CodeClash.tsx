@@ -9,7 +9,7 @@ const CodeClash = () => {
     <div className="relative h-auto bg-black text-white max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-7" style={{ fontFamily: 'Nasalization, sans-serif' }}>
       {/* Title and new paragraph with button on the right end */}
       <div className="mt-8 flex flex-col md:flex-row justify-between items-center">
-        <h1 className="text-6xl md:text-4xl text-blue-800">Code Clash</h1>
+        <h1 className="text-6xl md:text-4xl text-yellow-300">Code Clash</h1>
       </div>
 
       {/* Paragraph and button aligned separately */}
