@@ -2,9 +2,9 @@
 import React from 'react';
 
 const ContentCrafters = () => {
-  const handleRegisterClick = () => {
-    window.location.href = 'https://forms.gle/sKJnn9RbY92a8Gsr8'; // Replace with your actual Google Form link
-  };
+  // const handleRegisterClick = () => {
+  //   window.location.href = 'https://forms.gle/sKJnn9RbY92a8Gsr8'; // Replace with your actual Google Form link
+  // };
   return (
     <div className="relative h-auto bg-black text-white max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-7" style={{ fontFamily: 'Nasalization, sans-serif' }}>
       {/* Title and new paragraph with button on the right end */}
