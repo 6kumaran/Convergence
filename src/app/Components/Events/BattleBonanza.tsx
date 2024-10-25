@@ -18,7 +18,7 @@ const BattleBonanza = () => {
       {/* Paragraph and button aligned separately */}
       <div className="mt-6 flex flex-col md:flex-row justify-between items-center">
         <p className="text-base md:text-lg">
-          Venue: SCB Block Auditorium<br /> Price: Rs. 70(Per Head) & Rs. 50(Per Head)
+          Venue: JC Block 3rd Floor<br /> Price: Rs. 100(Per Head) & Rs. 70(Per Head)
         </p>
         <button onClick={handleRegisterClick} className="hidden md:block mt-3 md:mt-0 text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center">
           BGMI REGISTER
@@ -43,11 +43,25 @@ const BattleBonanza = () => {
         <div>Are you ready to prove you &apos;re the best in the battle royale arena? GAME OVER is your chance to dominate in BGMI and FreeFire! Bring your squad, strategize, and outlast your opponents in an intense competition filled with thrilling battles and high stakes.</div>
 <br />
  <div className='font-bold text-xl text-orange-600'>Event Structure:</div>
-<div className='pl-3'>- Teams will face off in multiple rounds.
-<br />- Only the top teams from each round will qualify to the finals. The 2nd and 3rd winners will be having free entry to the next rounds.
-<br />- The finalists will then battle it out to see who emerges as the ultimate top three winners!
-<br />- <span className='font-bold'>NOTE:</span> If the team (other than the top 3) wishes to play in the next round, they have to pay the registration fee again.</div>
+
+<div className='font-bold text-purple-500 text-2xl'>Only limited registrations available -
+ <br />- BGMI (50 Squads only)
+ <br />- FREE FIRE (48 Squads only)</div>
+
 <br />
+<div className='pl-3'><span className='text-yellow-500'>BGMI-</span>
+ <div className='pl-3'>* Two classic battles will be conducted parallely (25 squads each).
+ <br />* Squads will faceoff in the classic match     (erangel map).
+ <br />* The final squad standing in each battle will be awarded with cash price and a trophy.
+ <br />* The second squad winner will be awarded with cash price only.</div>
+</div><br />
+<div className='pl-3'><span className='text-yellow-500'>FREEFIRE-</span>
+<div className='pl-3'> * Four classic battles will be conducted parallely (12 squads each).
+ <br />* Squads will faceoff in the classic match (Bermuda map).
+ <br />* The 4 final squads standing in each battle will be facing clash squad battle(2 squads each).
+ <br />* The winners of the clash squad battle will be considered as winners and will be awarded with cash price and a trophy.
+ <br />* The runner-up squad will be awarded with cash price only.</div>
+</div><br />
  <div className='font-bold text-xl text-blue-800'>Why You Should Join:</div>
 <div className='pl-3'>- Test your gaming skills in a competitive environment.
 <br />- Compete against the best teams in college.
