@@ -49,13 +49,13 @@ const BattleBonanza = () => {
 <br />
  <div className='font-bold text-xl text-orange-600'>Event Structure:</div>
 <div className='pl-3'><span className='text-yellow-500'>BGMI-</span>
- <div className='pl-3'>* Two intense matches will run simultaneously, with 25 squads in each.
- <br />* Squads will battle it out in classic mode on the iconic Erangel map.
+ <div className='pl-3'>* Two intense matches will run simultaneously, with <span className='text-2xl font-bold'>25</span> squads in each.
+ <br />* Squads will battle it out in classic mode on the iconic <span className='text-2xl font-bold'>Erangel</span> map.
  <br />* The last squad standing in each match will take home a cash prize and a trophy.
  <br />* The runner-up squad will also receive a cash prize.</div>
 </div><br />
 <div className='pl-3'><span className='text-yellow-500'>FREEFIRE-</span>
-<div className='pl-3'> * Four intense classic battles will run simultaneously, featuring 12 squads per match on the Bermuda map.
+<div className='pl-3'> * Four intense classic battles will run simultaneously, featuring <span className='text-2xl font-bold'>12</span> squads per match on the <span className='text-2xl font-bold'>Bermuda</span> map.
  <br />* The top 4 surviving squads from each battle will advance to the Clash Squad face-off (2 squads per match).
  <br />* Clash Squad victors will be crowned winners and awarded both a cash prize and a trophy.
  <br />* The runner-up squad will receive a cash prize as well.</div>
