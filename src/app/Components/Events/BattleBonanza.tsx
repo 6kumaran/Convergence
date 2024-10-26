@@ -49,17 +49,16 @@ const BattleBonanza = () => {
 <br />
  <div className='font-bold text-xl text-orange-600'>Event Structure:</div>
 <div className='pl-3'><span className='text-yellow-500'>BGMI-</span>
- <div className='pl-3'>* Two classic battles will be conducted parallely (25 squads each).
- <br />* Squads will faceoff in the classic match     (erangel map).
- <br />* The final squad standing in each battle will be awarded with cash price and a trophy.
- <br />* The second squad winner will be awarded with cash price only.</div>
+ <div className='pl-3'>* Two intense matches will run simultaneously, with 25 squads in each.
+ <br />* Squads will battle it out in classic mode on the iconic Erangel map.
+ <br />* The last squad standing in each match will take home a cash prize and a trophy.
+ <br />* The runner-up squad will also receive a cash prize.</div>
 </div><br />
 <div className='pl-3'><span className='text-yellow-500'>FREEFIRE-</span>
-<div className='pl-3'> * Four classic battles will be conducted parallely (12 squads each).
- <br />* Squads will faceoff in the classic match (Bermuda map).
- <br />* The 4 final squads standing in each battle will be facing clash squad battle(2 squads each).
- <br />* The winners of the clash squad battle will be considered as winners and will be awarded with cash price and a trophy.
- <br />* The runner-up squad will be awarded with cash price only.</div>
+<div className='pl-3'> * Four intense classic battles will run simultaneously, featuring 12 squads per match on the Bermuda map.
+ <br />* The top 4 surviving squads from each battle will advance to the Clash Squad face-off (2 squads per match).
+ <br />* Clash Squad victors will be crowned winners and awarded both a cash prize and a trophy.
+ <br />* The runner-up squad will receive a cash prize as well.</div>
 </div><br />
  <div className='font-bold text-xl text-blue-800'>Why You Should Join:</div>
 <div className='pl-3'>- Test your gaming skills in a competitive environment.

@@ -126,7 +126,7 @@ export default function TimelineDemo() {
       ),
     },
     {
-      title: "Nov 7th Mornning",
+      title: "Nov 7th Morning",
       content: (
         <div>
           {/* <p className="text-stone-300 dark:text-stone-300 text-xs md:text-sm font-normal mb-4">
