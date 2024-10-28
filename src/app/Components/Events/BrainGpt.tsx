@@ -41,6 +41,7 @@ const BrainGpt = () => {
       {/* Responsive paragraph content starts below the venue and button */}
       <div className="mt-10 flex flex-col items-center justify-center h-auto px-4 sm:px-8 text-left">
         <div className="text-base md:text-lg lg:text-xl max-w-3xl overflow-wrap break-word leading-relaxed">
+          <div className='text-2xl' >***Audience are allowed only for the presentation round***</div><br />
         <div style={{ fontFamily: 'JetBrains Mono, monospace' }}>Are you ready to bring your ideas to life and solve real-world problems? Brain GPT is the platform for you! Whether you&apos;re a coder, designer, presenter, or visionary, we want YOU to be part of this dynamic event that unites diverse minds to create innovative and impactful solutions.</div>
           <br /><br />
           <div className='text-3xl'>What is Brain GPT?</div>
