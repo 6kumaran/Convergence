@@ -3,7 +3,7 @@ import React from 'react';
 
 const ContentCrafters = () => {
   const handleRegisterClick = () => {
-    window.location.href = 'https://forms.gle/r2jC4GibyZNra7uF9'; // Replace with your actual Google Form link
+    window.location.href = ''; // Replace with your actual Google Form link     https://forms.gle/r2jC4GibyZNra7uF9
   };
   return (
     <div className="relative h-auto bg-black text-white max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-7" style={{ fontFamily: 'Nasalization, sans-serif' }}>
