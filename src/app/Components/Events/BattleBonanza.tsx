@@ -18,7 +18,7 @@ const BattleBonanza = () => {
       {/* Paragraph and button aligned separately */}
       <div className="mt-6 flex flex-col md:flex-row justify-between items-center">
         <p className="text-base md:text-lg">
-          Venue: JC Block 3rd Floor<br /> Price: Rs. 100(BGMI) & Rs. 60(FreeFire)
+          Venue: JC Block 3rd Floor<br /> Price: Rs. 100(BGMI) & Rs. 70(FreeFire)
         </p>
         <button onClick={handleRegisterClick} className="hidden md:block mt-3 md:mt-0 text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center">
           BGMI REGISTER
