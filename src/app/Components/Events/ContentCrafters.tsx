@@ -3,7 +3,7 @@ import React from 'react';
 
 const ContentCrafters = () => {
   const handleRegisterClick = () => {
-    window.location.href = ''; // Replace with your actual Google Form link     https://forms.gle/r2jC4GibyZNra7uF9
+    window.location.href = 'https://forms.gle/r2jC4GibyZNra7uF9'; // Replace with your actual Google Form link     
   };
   return (
     <div className="relative h-auto bg-black text-white max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-7" style={{ fontFamily: 'Nasalization, sans-serif' }}>
@@ -37,8 +37,11 @@ const ContentCrafters = () => {
 <div className='text-orange-600'><br /><br />1. PromptGen (AI-Generated Images):</div>
 <div className='pl-5'>   <br />- Got a way with words? Use your creativity to write prompts that generate stunning images using AI tools. Craft a prompt that brings your vision to life and see how it transforms into a masterpiece. The most creative and visually striking images win!</div>
    
-<div className='text-blue-800'><br /><br />2. Reel It In (Reel Creation):</div> 
-<div className='pl-5'> <br /> - Love video editing? We just have the right competition for you.
+<div className='text-blue-800'><br /><br />2. Reel It In (Reel Creation):</div>
+<div className='pl-5'> <br /> <span className='text-2xl font-bold text-purple-300'>**Only limited registrations (15 teams only)**</span><br /><br />Cash Prices :
+<div className='pl-3 font-bold text-purple-300'><br />- First Winner - 6000/-
+<br />- Second Winner - 5000/-
+<br />- Third Winner - 4000/-</div><br />- Love video editing? We just have the right competition for you.
 <br /><br />
 Create a 30-60 second reel showcasing your favorite spots on campus. Capture the essence of college life, edit your footage, and create a reel that promotes the college in a fun and engaging way. The best video wins!
 </div>
