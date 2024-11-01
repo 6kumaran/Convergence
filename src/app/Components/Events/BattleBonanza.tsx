@@ -43,7 +43,7 @@ const BattleBonanza = () => {
         <div>Are you ready to prove you &apos;re the best in the battle royale arena? GAME OVER is your chance to dominate in BGMI and FreeFire! Bring your squad, strategize, and outlast your opponents in an intense competition filled with thrilling battles and high stakes.</div>
 <br />
 
-<div className='font-bold text-blue-800 text-2xl'>Only limited registrations available -
+<div className='font-bold text-purple-300 text-2xl'>Only limited registrations available -
  <br />- BGMI (50 Squads only)
  <br />- FREE FIRE (48 Squads only)</div>
 <br />
