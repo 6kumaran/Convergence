@@ -2,9 +2,6 @@
 import React from 'react';
 
 const CulturalBytes = () => {
-  const handleRegisterClick = () => {
-    window.location.href = 'https://forms.gle/aGyd1DtPckbcMSpg7'; // Replace with your actual Google Form link
-  };
   const handleRegisterClick2 = () => {
     window.location.href = 'https://forms.gle/t98R2ZQbCtSYSdQA7'; // Replace with your actual Google Form link
   };
