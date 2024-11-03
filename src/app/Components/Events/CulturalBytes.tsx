@@ -20,9 +20,7 @@ const CulturalBytes = () => {
         <p className="text-base md:text-lg">
           Venue: SCB Block Auditorium<br /> Price: Rs. 60(Per Head) & Rs. 50(Audience)
         </p>
-        <button onClick={handleRegisterClick} className="hidden md:block mt-3 md:mt-0 text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center">
-          REGISTER
-        </button>
+        
         <button onClick={handleRegisterClick2} className="hidden md:block mt-3 md:mt-0 text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-4 py-2 text-center">
           REGISTER for Audience
         </button>
@@ -30,9 +28,7 @@ const CulturalBytes = () => {
 
       {/* Register button for small devices */}
       <div className="block md:hidden mt-4">
-        <button onClick={handleRegisterClick} className="text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-5 py-3 text-center w-full">
-          REGISTER
-        </button>
+        
         <button onClick={handleRegisterClick2} className="mt-4 text-white bg-orange-700 hover:bg-orange-400 focus:outline-none font-medium rounded-full text-sm px-5 py-3 text-center w-full">
           REGISTER for Audience
         </button>
@@ -41,14 +37,13 @@ const CulturalBytes = () => {
       {/* Responsive paragraph content starts below the venue and button */}
       <div className="mt-10 flex flex-col items-center justify-center h-auto px-4 sm:px-8 text-left">
         <div style={{ fontFamily: 'JetBrains Mono, monospace' }} className="text-base md:text-lg lg:text-xl max-w-3xl overflow-wrap break-word leading-relaxed">
-        <div className='font-bold text-2xl text-purple-300'>**Limited Registrations (12 Performances Only)**</div><br />
-        <div>Get ready for 2 hours of energy, creativity, and celebration! Cultural Bytes is the grand finale of Convergence 2k24, where we not only recognize the champions but also celebrate with performances that will leave you in awe and entertained.</div>
-<br /><div>This isn &apos;t just an award ceremony—it &apos;s a celebration of talent, with a mix of incredible performances and appreciation for the winners of the event. <br />If you want to show your brilliant talent, you can register for the following:</div>
-<br /><div className='pl-5'><span className='text-xl font-bold text-orange-600'>Dance Performances :</span> Solo, Duo, Group</div>
-<div className='pl-5'><span className='text-xl font-bold text-blue-800'>Singing Performances :</span> Solo, Duo</div> 
-<div className='pl-5'><span className='text-xl font-bold text-yellow-700'>Special Performances</span> (Example: Stand-up comedy, Beatboxing etc)</div><br />
-<div>If you want to be in the <span className='text-purple-300 font-bold text-2xl'>audience</span> and enjoy the show, you could register for that as well.</div>
-<div>Register for an afternoon of fun, entertainment, and talent!</div> 
+        <div className='font-bold text-2xl text-purple-300'>**Ooops!!! You missed the opportunity...**</div><br />
+        <div>But NO WORRIES... You can still be a part of it as Audience.</div>
+        <div>Get ready to experience an afternoon full of performances.</div>
+        <br /><div className='pl-4'><span className='text-orange-700'> Dance Performances </span>: Solo, Duo, Group
+        <br /><span className='text-blue-500'>Singing Performances </span>: Solo, Duo 
+        <br /><span className='text-yellow-300'>Special Performances</span> (Example: Stand-up comedy, Beatboxing etc)</div>
+        <br /><div>So Why Waiting Register Soon before you miss this TOO...</div> 
         </div>
       </div>
     </div>
