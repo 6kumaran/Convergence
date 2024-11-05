@@ -51,7 +51,7 @@ const BattleBonanza = () => {
 <div className='pl-3'><span className='text-yellow-500'>BGMI-</span>
  <div className='pl-3'>* Two intense matches will run simultaneously, with <span className='text-2xl font-bold'>25</span> squads in each.
  <br />* Squads will battle it out in classic mode on the iconic <span className='text-2xl font-bold'>Erangel</span> map.
- <br />* The last squad standing in each match will take home a cash prize and a trophy.
+ <br />* The last squad standing in each match will face-off each other in a team deathmatch and the winner will take home cash prize and a trophy.
  <br />* The runner-up squad will also receive a cash prize.</div>
 </div><br />
 <div className='pl-3'><span className='text-yellow-500'>FREEFIRE-</span>
