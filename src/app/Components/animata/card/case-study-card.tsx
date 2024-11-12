@@ -36,7 +36,7 @@ const ContentCard: React.FC<CaseStudyCardProps> = ({ title, category, image, log
   );
 };
 
-// SimpleImageCard component for rendering only image
+// SimpleImageCard component for rendering only an image
 const SimpleImageCard: React.FC<CaseStudyCardProps> = ({ image }) => {
   return (
     <div
@@ -50,6 +50,7 @@ const SimpleImageCard: React.FC<CaseStudyCardProps> = ({ image }) => {
   );
 };
 
+// HoverRevealSlip component for hover animation effect
 const HoverRevealSlip: React.FC<{ show: React.ReactNode }> = ({ show }) => {
   const common = "absolute flex w-full h-full [backface-visibility:hidden]";
 
@@ -76,6 +77,7 @@ const HoverRevealSlip: React.FC<{ show: React.ReactNode }> = ({ show }) => {
   );
 };
 
+// Main CaseStudyCard Component
 const CaseStudyCard: React.FC<CaseStudyCardProps> = ({
   title,
   category,
@@ -101,5 +103,6 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({
   );
 };
 
+// Set display name for debugging purposes
 CaseStudyCard.displayName = "CaseStudyCard";
 export default CaseStudyCard;
