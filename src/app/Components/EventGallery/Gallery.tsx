@@ -1,28 +1,48 @@
 "use client";
 import React from "react";
-import { BackgroundBeams } from "../ui/background-beams";
+import CaseStudyCard from "../animata/card/case-study-card";
 
 export default function BackgroundBeamsDemo() {
   return (
-    <div className="h-[40rem] w-full rounded-md bg-black relative flex flex-col items-center justify-center antialiased">
-      <div className="max-w-2xl mx-auto p-4">
-        <h1 className="pb-4 relative z-10 text-2xl md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
-        Gallery Coming Soon!
-        </h1>
-        <p></p>
-        <div style={{ fontFamily: 'Nasalization, sans-serif' }} className="text-neutral-500 max-w-lg mx-auto my-2 text-md text-center relative z-10">
-        Thank you for your excitement and support for Convergence! Our team is working hard to gather all the amazing moments captured during the event.
-
-<br /><br /><div className="text-left">📸 Stay tuned for a collection of unforgettable memories from the fest, including:</div>
-<div className="pl-9 text-left">
-<br />- Exciting competition highlights
-<br />- Behind-the-scenes glimpses
-<br />- Award ceremonies and performances
-<br />- Fun-filled crowd moments</div>
-<br /><br />Check back here soon to relive the energy and excitement of Convergence!
-        </div>
+    <div className="min-h-screen w-full bg-black flex flex-col items-center justify-center antialiased">
+      <div className="container mx-auto px-4 flex flex-wrap gap-4 justify-center">
+        <CaseStudyCard
+          category="GALLERY"
+          image="https://images.unsplash.com/photo-1675285410608-ddd6bb430b19?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          link="https://drive.google.com/drive/folders/13sIOfgNlZ9lXZbewdT25lCZnksl80JHv?usp=sharing"
+          logo="https://i.ibb.co/kHXdSrN/image.png"
+          title="Inaugural Ceremony"
+          type="content"
+          className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.33%-1rem)] lg:w-[calc(25%-1rem)]"
+        />
+        {/* <CaseStudyCard
+          category="GALLERY"
+          image="https://images.unsplash.com/photo-1675285410608-ddd6bb430b19?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          link="https://drive.google.com/drive/folders/13sIOfgNlZ9lXZbewdT25lCZnksl80JHv?usp=sharing"
+          logo="https://i.ibb.co/kHXdSrN/image.png"
+          title="Inaugural Ceremony"
+          type="content"
+          className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.33%-1rem)] lg:w-[calc(25%-1rem)]"
+        />
+        <CaseStudyCard
+          category="GALLERY"
+          image="https://images.unsplash.com/photo-1675285410608-ddd6bb430b19?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          link="https://drive.google.com/drive/folders/13sIOfgNlZ9lXZbewdT25lCZnksl80JHv?usp=sharing"
+          logo="https://i.ibb.co/kHXdSrN/image.png"
+          title="Inaugural Ceremony"
+          type="content"
+          className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.33%-1rem)] lg:w-[calc(25%-1rem)]"
+        />
+        <CaseStudyCard
+          category="GALLERY"
+          image="https://images.unsplash.com/photo-1675285410608-ddd6bb430b19?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          link="https://drive.google.com/drive/folders/13sIOfgNlZ9lXZbewdT25lCZnksl80JHv?usp=sharing"
+          logo="https://i.ibb.co/kHXdSrN/image.png"
+          title="Inaugural Ceremony"
+          type="content"
+          className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.33%-1rem)] lg:w-[calc(25%-1rem)]"
+        /> */}
       </div>
-      <BackgroundBeams />
     </div>
   );
 }
