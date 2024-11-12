@@ -2,7 +2,6 @@
 import React from "react";
 import CaseStudyCard from "../animata/card/case-study-card";
 
-// Main BackgroundBeamsDemo Component
 const BackgroundBeamsDemo: React.FC = () => {
   return (
     <div className="min-h-[80vh] w-full bg-black flex flex-col items-center justify-center antialiased">
@@ -21,6 +20,5 @@ const BackgroundBeamsDemo: React.FC = () => {
   );
 };
 
-// Set display name for debugging purposes
 BackgroundBeamsDemo.displayName = "BackgroundBeamsDemo";
 export default BackgroundBeamsDemo;

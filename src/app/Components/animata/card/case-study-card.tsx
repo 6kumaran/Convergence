@@ -103,6 +103,5 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({
   );
 };
 
-// Set display name for debugging purposes
 CaseStudyCard.displayName = "CaseStudyCard";
 export default CaseStudyCard;
