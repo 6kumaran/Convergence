@@ -22,7 +22,6 @@ const ContentCard: React.FC<CaseStudyCardProps> = ({ title, category, image, log
       }}
     >
       {image && <div className="absolute inset-0 bg-black opacity-70 rounded-lg" />}
-
       <div className="relative z-10">
         {category && <div className="text-xs text-gray-200">{category}</div>}
         {title && (
