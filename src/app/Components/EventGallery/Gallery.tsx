@@ -15,6 +15,15 @@ const BackgroundBeamsDemo: React.FC = () => {
           type="content"
           className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.33%-1rem)] lg:w-[calc(25%-1rem)]"
         />
+        <CaseStudyCard
+          category="GALLERY"
+          image="https://i.ibb.co/72BJ7zJ/backgrounds-savage-vinyl-backgrounds-sa-v20-01.jpg"
+          link="https://drive.google.com/drive/folders/1ouTp1pCGBvwfdzDnjpXQ8UYTXIMM1GwY?usp=sharing"
+          logo="https://i.ibb.co/kHXdSrN/image.png"
+          title="Explore DAY 1"
+          type="content"
+          className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.33%-1rem)] lg:w-[calc(25%-1rem)]"
+        />
       </div>
     </div>
   );

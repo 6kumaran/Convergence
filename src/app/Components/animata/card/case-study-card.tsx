@@ -62,7 +62,7 @@ const HoverRevealSlip: React.FC<{ show: React.ReactNode }> = ({ show }) => {
           "relative z-50 h-full w-48 origin-left transition-transform duration-500 ease-out [transform-style:preserve-3d] group-hover:[transform:rotateY(-30deg)]",
         )}
       >
-        <div className={cn("h-full w-full rounded-lg bg-white shadow-md", common)}>{show}</div>
+        <div className={cn("h-full w-full rounded-lg bg-black shadow-md", common)}>{show}</div>
       </div>
 
       <div
