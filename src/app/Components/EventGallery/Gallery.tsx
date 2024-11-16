@@ -8,7 +8,7 @@ const BackgroundBeamsDemo: React.FC = () => {
       <div className="container mx-auto px-4 flex flex-wrap gap-4 justify-center">
         <CaseStudyCard
           category="GALLERY"
-          image="https://i.ibb.co/72BJ7zJ/backgrounds-savage-vinyl-backgrounds-sa-v20-01.jpg"
+          image=""
           link="https://drive.google.com/drive/folders/13sIOfgNlZ9lXZbewdT25lCZnksl80JHv?usp=sharing"
           logo="https://i.ibb.co/kHXdSrN/image.png"
           title="Inaugural Ceremony"
@@ -17,10 +17,19 @@ const BackgroundBeamsDemo: React.FC = () => {
         />
         <CaseStudyCard
           category="GALLERY"
-          image="https://i.ibb.co/72BJ7zJ/backgrounds-savage-vinyl-backgrounds-sa-v20-01.jpg"
+          image=""
           link="https://drive.google.com/drive/folders/1ouTp1pCGBvwfdzDnjpXQ8UYTXIMM1GwY?usp=sharing"
           logo="https://i.ibb.co/kHXdSrN/image.png"
           title="Explore DAY 1"
+          type="content"
+          className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.33%-1rem)] lg:w-[calc(25%-1rem)]"
+        />
+        <CaseStudyCard
+          category="GALLERY"
+          image=""
+          link="https://drive.google.com/drive/folders/12k8oETBn1SBqqqZZ5KOkBk1wWygzJ-ZX?usp=sharing"
+          logo="https://i.ibb.co/kHXdSrN/image.png"
+          title="Explore DAY 2"
           type="content"
           className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.33%-1rem)] lg:w-[calc(25%-1rem)]"
         />
