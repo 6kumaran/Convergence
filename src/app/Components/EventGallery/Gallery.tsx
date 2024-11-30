@@ -42,6 +42,15 @@ const BackgroundBeamsDemo: React.FC = () => {
           type="content"
           className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.33%-1rem)] lg:w-[calc(25%-1rem)]"
         />
+        <CaseStudyCard
+          category="GALLERY"
+          image=""
+          link="https://drive.google.com/drive/folders/1w_XuJ4v-AxKFLxDUnoRmXyZOAuKpr0pq?usp=sharing"
+          logo="https://i.ibb.co/kHXdSrN/image.png"
+          title="CULTURALS"
+          type="content"
+          className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.33%-1rem)] lg:w-[calc(25%-1rem)]"
+        />
       </div>
     </div>
   );
