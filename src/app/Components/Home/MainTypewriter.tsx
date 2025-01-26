@@ -21,7 +21,7 @@ export default function TypewriterEffectSmoothDemo() {
     <div className="flex flex-col items-center justify-center h-[40rem]  ">
     <h1 className="border-2 px-5 py-1 mb-12 rounded-full text-white">2K24</h1>
       <h1 className="font-josefin text-white text-5xl md:text-8xl font-bold text-center">
-        TAM V11
+        CONVERGENCE
       </h1>
       <TypewriterEffectSmooth words={words} />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
