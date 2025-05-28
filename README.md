@@ -62,10 +62,10 @@ Now, visit `http://localhost:5173/` in your browser to see the website.
 
 ## 📸 Screenshots
 
-```
+
 ![alt text](image.png)
 ![alt text](image-1.png)
-```
+
 
 ---
 
@@ -84,8 +84,6 @@ For queries or collaboration:
 > Built with ❤️ by the Convergence Tech Team
 
 ```
-
----
 
 Let me know if you’d like help generating **badges**, or if you’d prefer a **dark-themed version** with markdown styling elements like code highlights, horizontal split layouts, or collapsible sections.
 ```
